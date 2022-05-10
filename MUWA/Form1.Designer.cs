@@ -90,8 +90,7 @@
             this.label7.Padding = new System.Windows.Forms.Padding(10);
             this.label7.Size = new System.Drawing.Size(862, 180);
             this.label7.TabIndex = 7;
-            this.label7.Text = "2022.05.08 Image of the day\r\n\r\n(x2) Ukrainian 2S3 Gvozdika self-propelled howitze" +
-    "rs firing towards Russian positions.";
+            this.label7.Text = "LOADING IMAGE OF THE DAY";
             // 
             // panel3
             // 
