@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -41,7 +43,7 @@ namespace MUWA
             roundedCorners(label6, 20);
             roundedCorners(label7, 20);
             roundedCorners(panel5, 40);
-            roundedCorners(pictureBox4, 20);
+            roundedCorners(webBrowser1, 20);
         }
 
         void roundedCorners(Control c, int x)
@@ -66,6 +68,9 @@ namespace MUWA
         private void Form1_Load(object sender, EventArgs e)
         {
             applicationFade.Start();
+            FileDownloader fd = new FileDownloader();
+            fd.DownloadFileAsync("https://drive.google.com/file/d/14o452mLGhshdSb5PP2tiOlXIgfYziCFk/view?usp=sharing", @"C:\Temp\muwaIOTD.txt");
+            fd.Dispose();
         }
 
         private void pictureBox1_MouseEnter(object sender, EventArgs e)
@@ -93,9 +98,13 @@ namespace MUWA
                     }
                     break;
                 case false:
-                    this.Opacity += 0.02;
+                    this.Opacity += 0.005;
                     if(this.Opacity == 1)
                     {
+                        string[] IOTD = File.ReadAllLines(@"C:\Temp\muwaIOTD.txt");
+                        label7.Text = IOTD[1] + " Image of the day." + Environment.NewLine + Environment.NewLine + IOTD[2];
+                        System.Uri uri1 = new System.Uri(IOTD[0]);
+                        webBrowser1.Url = uri1;
                         applicationFade.Stop();
                     }
                     break;
