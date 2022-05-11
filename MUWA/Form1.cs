@@ -103,6 +103,7 @@ namespace MUWA
                     {
                         string[] IOTD = File.ReadAllLines(@"C:\Temp\muwaIOTD.txt");
                         label7.Text = IOTD[1] + " Image of the day." + Environment.NewLine + Environment.NewLine + IOTD[2];
+                        label6.Text = "As of " + IOTD[1] + ", there are " + IOTD[3] + " files stored in the archive, they are " + IOTD[4] + "GB in size." + Environment.NewLine + Environment.NewLine + "Approx. " + IOTD[5] + " coffes drinked while developing this application." + Environment.NewLine + Environment.NewLine + "Approx. " + IOTD[6] + " hours have been put into developing this application.";
                         System.Uri uri1 = new System.Uri(IOTD[0]);
                         webBrowser1.Url = uri1;
                         applicationFade.Stop();
@@ -140,7 +141,6 @@ namespace MUWA
             if(mainmenub != 1)
             {
                 label1.ForeColor = Color.White;
-                label1.BackColor = Color.FromArgb(30, 30, 30);
             }
         }
 
@@ -158,7 +158,6 @@ namespace MUWA
             if (mainmenub != 2)
             {
                 label2.ForeColor = Color.White;
-                label2.BackColor = Color.FromArgb(30, 30, 30);
             }
         }
 

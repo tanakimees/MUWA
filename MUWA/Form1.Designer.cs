@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.label7 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
@@ -46,7 +47,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -78,6 +78,14 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(882, 810);
             this.panel5.TabIndex = 3;
+            // 
+            // webBrowser1
+            // 
+            this.webBrowser1.Location = new System.Drawing.Point(10, 10);
+            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
+            this.webBrowser1.Name = "webBrowser1";
+            this.webBrowser1.Size = new System.Drawing.Size(862, 600);
+            this.webBrowser1.TabIndex = 8;
             // 
             // label7
             // 
@@ -159,9 +167,7 @@
             this.label6.Padding = new System.Windows.Forms.Padding(10);
             this.label6.Size = new System.Drawing.Size(310, 470);
             this.label6.TabIndex = 7;
-            this.label6.Text = "Currently, there are 0000 files stored, they are 00.0GB in size.\r\n\r\nApprox. 00 co" +
-    "ffees drinked while programming this application.\r\n\r\nApprox. 000 hours have been" +
-    " put into programming this application.";
+            this.label6.Text = "LOADING TEXT...";
             // 
             // applicationFade
             // 
@@ -249,14 +255,6 @@
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
-            // 
-            // webBrowser1
-            // 
-            this.webBrowser1.Location = new System.Drawing.Point(10, 10);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(862, 600);
-            this.webBrowser1.TabIndex = 8;
             // 
             // Form1
             // 
