@@ -18,6 +18,9 @@ namespace MUWA
         //data
         bool fadeInOrOut = false;
         int mainmenub = 1;
+        string year = "xxxx";
+        string month = "xx";
+        string day = "xx";
 
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
@@ -226,6 +229,87 @@ namespace MUWA
                 panel7.Visible = false;
                 label9.Text = "Year ↑";
             }
+        }
+
+        private void label12_MouseEnter(object sender, EventArgs e)
+        {
+            label12.ForeColor = Color.White;
+        }
+
+        private void label12_MouseLeave(object sender, EventArgs e)
+        {
+            if(year == "xxxx")
+            {
+                label12.ForeColor = Color.White;
+            }
+            else
+            {
+                label12.ForeColor = Color.Gray;
+            }
+        }
+
+        void changedatelabel()
+        {
+            label11.Text = "Applied date: " + year + "." + month + "." + day;
+            foreach(Label l in panel7.Controls.OfType<Label>())
+            {
+                l.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            year = "xxxx";
+            changedatelabel();
+            label12.ForeColor = Color.White;
+        }
+
+        private void label13_MouseEnter(object sender, EventArgs e)
+        {
+            label13.ForeColor = Color.White;
+        }
+
+        private void label13_MouseLeave(object sender, EventArgs e)
+        {
+            if (year == "2022")
+            {
+                label13.ForeColor = Color.White;
+            }
+            else
+            {
+                label13.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+            year = "2022";
+            changedatelabel();
+            label13.ForeColor = Color.White;
+        }
+
+        private void label14_MouseEnter(object sender, EventArgs e)
+        {
+            label14.ForeColor = Color.White;
+        }
+
+        private void label14_MouseLeave(object sender, EventArgs e)
+        {
+            if (year == "2023")
+            {
+                label14.ForeColor = Color.White;
+            }
+            else
+            {
+                label14.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+            year = "2023";
+            changedatelabel();
+            label14.ForeColor = Color.White;
         }
     }
 }

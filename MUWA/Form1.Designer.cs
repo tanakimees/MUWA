@@ -375,6 +375,9 @@
             this.label12.TabIndex = 13;
             this.label12.Text = "Any";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            this.label12.MouseEnter += new System.EventHandler(this.label12_MouseEnter);
+            this.label12.MouseLeave += new System.EventHandler(this.label12_MouseLeave);
             // 
             // label13
             // 
@@ -388,6 +391,9 @@
             this.label13.TabIndex = 14;
             this.label13.Text = "2022";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            this.label13.MouseEnter += new System.EventHandler(this.label13_MouseEnter);
+            this.label13.MouseLeave += new System.EventHandler(this.label13_MouseLeave);
             // 
             // label14
             // 
@@ -401,6 +407,9 @@
             this.label14.TabIndex = 15;
             this.label14.Text = "2023";
             this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            this.label14.MouseEnter += new System.EventHandler(this.label14_MouseEnter);
+            this.label14.MouseLeave += new System.EventHandler(this.label14_MouseLeave);
             // 
             // label15
             // 
