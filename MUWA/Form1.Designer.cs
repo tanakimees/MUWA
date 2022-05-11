@@ -423,6 +423,9 @@
             this.label15.TabIndex = 16;
             this.label15.Text = "2024";
             this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            this.label15.MouseEnter += new System.EventHandler(this.label15_MouseEnter);
+            this.label15.MouseLeave += new System.EventHandler(this.label15_MouseLeave);
             // 
             // label16
             // 
@@ -436,6 +439,9 @@
             this.label16.TabIndex = 17;
             this.label16.Text = "2025";
             this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label16.Click += new System.EventHandler(this.label16_Click);
+            this.label16.MouseEnter += new System.EventHandler(this.label16_MouseEnter);
+            this.label16.MouseLeave += new System.EventHandler(this.label16_MouseLeave);
             // 
             // label17
             // 
@@ -449,6 +455,9 @@
             this.label17.TabIndex = 18;
             this.label17.Text = "2026";
             this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label17.Click += new System.EventHandler(this.label17_Click);
+            this.label17.MouseEnter += new System.EventHandler(this.label17_MouseEnter);
+            this.label17.MouseLeave += new System.EventHandler(this.label17_MouseLeave);
             // 
             // label18
             // 
@@ -462,6 +471,9 @@
             this.label18.TabIndex = 19;
             this.label18.Text = "2027";
             this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label18.Click += new System.EventHandler(this.label18_Click);
+            this.label18.MouseEnter += new System.EventHandler(this.label18_MouseEnter);
+            this.label18.MouseLeave += new System.EventHandler(this.label18_MouseLeave);
             // 
             // label19
             // 
@@ -475,6 +487,9 @@
             this.label19.TabIndex = 20;
             this.label19.Text = "2028";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label19.Click += new System.EventHandler(this.label19_Click);
+            this.label19.MouseEnter += new System.EventHandler(this.label19_MouseEnter);
+            this.label19.MouseLeave += new System.EventHandler(this.label19_MouseLeave);
             // 
             // label20
             // 
@@ -488,6 +503,9 @@
             this.label20.TabIndex = 21;
             this.label20.Text = "2029";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            this.label20.MouseEnter += new System.EventHandler(this.label20_MouseEnter);
+            this.label20.MouseLeave += new System.EventHandler(this.label20_MouseLeave);
             // 
             // label21
             // 
@@ -501,6 +519,9 @@
             this.label21.TabIndex = 22;
             this.label21.Text = "2030";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label21.Click += new System.EventHandler(this.label21_Click);
+            this.label21.MouseEnter += new System.EventHandler(this.label21_MouseEnter);
+            this.label21.MouseLeave += new System.EventHandler(this.label21_MouseLeave);
             // 
             // Form1
             // 
@@ -512,8 +533,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panel2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";

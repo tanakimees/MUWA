@@ -311,5 +311,173 @@ namespace MUWA
             changedatelabel();
             label14.ForeColor = Color.White;
         }
+
+        private void label15_MouseEnter(object sender, EventArgs e)
+        {
+            label15.ForeColor = Color.White;
+        }
+
+        private void label15_MouseLeave(object sender, EventArgs e)
+        {
+            if (year == "2024")
+            {
+                label15.ForeColor = Color.White;
+            }
+            else
+            {
+                label15.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+            year = "2024";
+            changedatelabel();
+            label15.ForeColor = Color.White;
+        }
+
+        private void label16_MouseEnter(object sender, EventArgs e)
+        {
+            label16.ForeColor = Color.White;
+        }
+
+        private void label16_MouseLeave(object sender, EventArgs e)
+        {
+            if (year == "2025")
+            {
+                label16.ForeColor = Color.White;
+            }
+            else
+            {
+                label16.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label16_Click(object sender, EventArgs e)
+        {
+            year = "2025";
+            changedatelabel();
+            label16.ForeColor = Color.White;
+        }
+
+        private void label17_MouseEnter(object sender, EventArgs e)
+        {
+            label17.ForeColor = Color.White;
+        }
+
+        private void label17_MouseLeave(object sender, EventArgs e)
+        {
+            if (year == "2026")
+            {
+                label17.ForeColor = Color.White;
+            }
+            else
+            {
+                label17.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label17_Click(object sender, EventArgs e)
+        {
+            year = "2026";
+            changedatelabel();
+            label17.ForeColor = Color.White;
+        }
+
+        private void label18_MouseEnter(object sender, EventArgs e)
+        {
+            label18.ForeColor = Color.White;
+        }
+
+        private void label18_MouseLeave(object sender, EventArgs e)
+        {
+            if (year == "2027")
+            {
+                label18.ForeColor = Color.White;
+            }
+            else
+            {
+                label18.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label18_Click(object sender, EventArgs e)
+        {
+            year = "2027";
+            changedatelabel();
+            label18.ForeColor = Color.White;
+        }
+
+        private void label19_MouseEnter(object sender, EventArgs e)
+        {
+            label19.ForeColor = Color.White;
+        }
+
+        private void label19_MouseLeave(object sender, EventArgs e)
+        {
+            if (year == "2028")
+            {
+                label19.ForeColor = Color.White;
+            }
+            else
+            {
+                label19.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+            year = "2028";
+            changedatelabel();
+            label19.ForeColor = Color.White;
+        }
+
+        private void label20_MouseEnter(object sender, EventArgs e)
+        {
+            label20.ForeColor = Color.White;
+        }
+
+        private void label20_MouseLeave(object sender, EventArgs e)
+        {
+            if (year == "2029")
+            {
+                label20.ForeColor = Color.White;
+            }
+            else
+            {
+                label20.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+            year = "2029";
+            changedatelabel();
+            label20.ForeColor = Color.White;
+        }
+
+        private void label21_MouseEnter(object sender, EventArgs e)
+        {
+            label21.ForeColor = Color.White;
+        }
+
+        private void label21_MouseLeave(object sender, EventArgs e)
+        {
+            if (year == "2030")
+            {
+                label21.ForeColor = Color.White;
+            }
+            else
+            {
+                label21.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+            year = "2030";
+            changedatelabel();
+            label21.ForeColor = Color.White;
+        }
     }
 }
