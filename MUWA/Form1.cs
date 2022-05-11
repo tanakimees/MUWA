@@ -39,11 +39,16 @@ namespace MUWA
             roundedCorners(panel3, 40);
             roundedCorners(panel4, 40);
             roundedCorners(label4, 20);
+            roundedCorners(label3, 20);
             roundedCorners(label5, 20);
             roundedCorners(label6, 20);
             roundedCorners(label7, 20);
             roundedCorners(panel5, 40);
             roundedCorners(webBrowser1, 20);
+            roundedCorners(panel6, 40);
+            roundedCorners(label9, 10);
+            roundedCorners(label11, 10);
+            roundedCorners(panel7, 10);
         }
 
         void roundedCorners(Control c, int x)
@@ -193,6 +198,33 @@ namespace MUWA
                 panel2.Visible = true;
                 mainmenub = 2;
                 panel1.Visible = false;
+            }
+        }
+
+        private void label9_MouseEnter(object sender, EventArgs e)
+        {
+            label9.ForeColor = Color.White;
+        }
+
+        private void label9_MouseLeave(object sender, EventArgs e)
+        {
+            if(panel7.Visible == false)
+            {
+                label9.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            if(panel7.Visible == false)
+            {
+                panel7.Visible = true;
+                label9.Text = "Year ↓";
+            }
+            else
+            {
+                panel7.Visible = false;
+                label9.Text = "Year ↑";
             }
         }
     }
