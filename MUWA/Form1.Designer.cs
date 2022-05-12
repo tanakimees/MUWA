@@ -112,6 +112,10 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label67 = new System.Windows.Forms.Label();
             this.label68 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label69 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -124,6 +128,7 @@
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel10.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -278,7 +283,10 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel2.Controls.Add(this.panel9);
             this.panel2.Controls.Add(this.panel6);
+            this.panel2.Controls.Add(this.panel8);
+            this.panel2.Controls.Add(this.panel7);
             this.panel2.Location = new System.Drawing.Point(0, 50);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1600, 850);
@@ -287,9 +295,7 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.panel6.Controls.Add(this.panel9);
-            this.panel6.Controls.Add(this.panel8);
-            this.panel6.Controls.Add(this.panel7);
+            this.panel6.Controls.Add(this.panel10);
             this.panel6.Controls.Add(this.label11);
             this.panel6.Controls.Add(this.label10);
             this.panel6.Controls.Add(this.label8);
@@ -337,7 +343,7 @@
             this.panel9.Controls.Add(this.label35);
             this.panel9.Controls.Add(this.label46);
             this.panel9.Controls.Add(this.label47);
-            this.panel9.Location = new System.Drawing.Point(217, 110);
+            this.panel9.Location = new System.Drawing.Point(748, 170);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(93, 360);
             this.panel9.TabIndex = 26;
@@ -871,7 +877,7 @@
             this.panel8.Controls.Add(this.label29);
             this.panel8.Controls.Add(this.label30);
             this.panel8.Controls.Add(this.label31);
-            this.panel8.Location = new System.Drawing.Point(114, 110);
+            this.panel8.Location = new System.Drawing.Point(635, 170);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(93, 390);
             this.panel8.TabIndex = 23;
@@ -1098,7 +1104,7 @@
             this.panel7.Controls.Add(this.label14);
             this.panel7.Controls.Add(this.label13);
             this.panel7.Controls.Add(this.label12);
-            this.panel7.Location = new System.Drawing.Point(10, 110);
+            this.panel7.Location = new System.Drawing.Point(536, 170);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(93, 300);
             this.panel7.TabIndex = 12;
@@ -1275,7 +1281,7 @@
             this.label11.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.label11.Size = new System.Drawing.Size(300, 30);
             this.label11.TabIndex = 11;
-            this.label11.Text = "Applied date: xxxx.xx.xx";
+            this.label11.Text = "Date: xxxx.xx.xx";
             this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // label10
@@ -1379,6 +1385,9 @@
             this.label67.TabIndex = 27;
             this.label67.Text = "Location ↑";
             this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label67.Click += new System.EventHandler(this.label67_Click);
+            this.label67.MouseEnter += new System.EventHandler(this.label67_MouseEnter);
+            this.label67.MouseLeave += new System.EventHandler(this.label67_MouseLeave);
             // 
             // label68
             // 
@@ -1391,8 +1400,59 @@
             this.label68.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.label68.Size = new System.Drawing.Size(300, 30);
             this.label68.TabIndex = 28;
-            this.label68.Text = "Applied location: Any";
+            this.label68.Text = "Location: Any";
             this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel10.Controls.Add(this.label71);
+            this.panel10.Controls.Add(this.label70);
+            this.panel10.Controls.Add(this.label69);
+            this.panel10.Location = new System.Drawing.Point(10, 190);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(300, 260);
+            this.panel10.TabIndex = 29;
+            this.panel10.Visible = false;
+            // 
+            // label69
+            // 
+            this.label69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label69.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label69.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.ForeColor = System.Drawing.Color.White;
+            this.label69.Location = new System.Drawing.Point(0, 0);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(300, 30);
+            this.label69.TabIndex = 23;
+            this.label69.Text = "Any";
+            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label70
+            // 
+            this.label70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label70.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label70.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.ForeColor = System.Drawing.Color.Gray;
+            this.label70.Location = new System.Drawing.Point(0, 30);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(300, 30);
+            this.label70.TabIndex = 24;
+            this.label70.Text = "Donetsk Oblast";
+            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label71
+            // 
+            this.label71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label71.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label71.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label71.ForeColor = System.Drawing.Color.Gray;
+            this.label71.Location = new System.Drawing.Point(0, 60);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(300, 30);
+            this.label71.TabIndex = 25;
+            this.label71.Text = "Dnipropetrovsk Oblast";
+            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -1404,8 +1464,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -1424,6 +1484,7 @@
             this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel10.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1512,6 +1573,10 @@
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label67;
         private System.Windows.Forms.Label label68;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Label label71;
+        private System.Windows.Forms.Label label70;
+        private System.Windows.Forms.Label label69;
     }
 }
 

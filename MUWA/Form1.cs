@@ -53,10 +53,13 @@ namespace MUWA
             roundedCorners(label9, 10);
             roundedCorners(label11, 10);
             roundedCorners(label10, 10);
+            roundedCorners(label68, 10);
+            roundedCorners(label67, 10);
             roundedCorners(label8, 10);
             roundedCorners(panel7, 10);
             roundedCorners(panel8, 10);
             roundedCorners(panel9, 10);
+            roundedCorners(panel10, 10);
         }
 
         void roundedCorners(Control c, int x)
@@ -255,7 +258,7 @@ namespace MUWA
 
         void changedatelabel()
         {
-            label11.Text = "Applied date: " + year + "." + month + "." + day;
+            label11.Text = "Date: " + year + "." + month + "." + day;
             foreach(Label l in panel7.Controls.OfType<Label>())
             {
                 l.ForeColor = Color.Gray;
@@ -538,7 +541,7 @@ namespace MUWA
         }
         void changedatelabel1()
         {
-            label11.Text = "Applied date: " + year + "." + month + "." + day;
+            label11.Text = "Date: " + year + "." + month + "." + day;
             foreach (Label l in panel8.Controls.OfType<Label>())
             {
                 l.ForeColor = Color.Gray;
@@ -739,7 +742,7 @@ namespace MUWA
         }
         void changedatelabel2()
         {
-            label11.Text = "Applied date: " + year + "." + month + "." + day;
+            label11.Text = "Date: " + year + "." + month + "." + day;
             foreach (Label l in panel9.Controls.OfType<Label>())
             {
                 l.ForeColor = Color.Gray;
@@ -1201,6 +1204,32 @@ namespace MUWA
         private void label66_MouseLeave(object sender, EventArgs e)
         {
             checkday("31", label66);
+        }
+        private void label67_MouseEnter(object sender, EventArgs e)
+        {
+            label67.ForeColor = Color.White;
+        }
+
+        private void label67_Click(object sender, EventArgs e)
+        {
+            if (panel10.Visible == false)
+            {
+                panel10.Visible = true;
+                label67.Text = "Location ↓";
+            }
+            else
+            {
+                panel10.Visible = false;
+                label67.Text = "Location ↑";
+            }
+        }
+
+        private void label67_MouseLeave(object sender, EventArgs e)
+        {
+            if (panel10.Visible == false)
+            {
+                label67.ForeColor = Color.Gray;
+            }
         }
     }
 }
