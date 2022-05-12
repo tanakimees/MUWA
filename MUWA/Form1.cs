@@ -465,7 +465,6 @@ namespace MUWA
         {
             label21.ForeColor = Color.White;
         }
-
         private void label21_MouseLeave(object sender, EventArgs e)
         {
             if (year == "2030")
@@ -477,14 +476,12 @@ namespace MUWA
                 label21.ForeColor = Color.Gray;
             }
         }
-
         private void label21_Click(object sender, EventArgs e)
         {
             year = "2030";
             changedatelabel();
             label21.ForeColor = Color.White;
         }
-
         private void label8_Click(object sender, EventArgs e)
         {
             if (panel8.Visible == false)
@@ -498,12 +495,10 @@ namespace MUWA
                 label8.Text = "Month ↑";
             }
         }
-
         private void label8_MouseEnter(object sender, EventArgs e)
         {
             label8.ForeColor = Color.White;
         }
-
         private void label8_MouseLeave(object sender, EventArgs e)
         {
             if (panel8.Visible == false)
@@ -511,7 +506,6 @@ namespace MUWA
                 label8.ForeColor = Color.Gray;
             }
         }
-
         private void label10_Click(object sender, EventArgs e)
         {
             if (panel9.Visible == false)
@@ -525,12 +519,10 @@ namespace MUWA
                 label10.Text = "Month ↑";
             }
         }
-
         private void label10_MouseEnter(object sender, EventArgs e)
         {
             label10.ForeColor = Color.White;
         }
-
         private void label10_MouseLeave(object sender, EventArgs e)
         {
             if (panel9.Visible == false)
@@ -538,7 +530,6 @@ namespace MUWA
                 label10.ForeColor = Color.Gray;
             }
         }
-
         private void label30_Click(object sender, EventArgs e)
         {
             month = "01";
@@ -553,310 +544,663 @@ namespace MUWA
                 l.ForeColor = Color.Gray;
             }
         }
-
         private void label31_Click(object sender, EventArgs e)
         {
             month = "xx";
             changedatelabel1();
             label31.ForeColor = Color.White;
         }
-
         private void label29_Click(object sender, EventArgs e)
         {
             month = "02";
             changedatelabel1();
             label29.ForeColor = Color.White;
         }
-
         private void label28_Click(object sender, EventArgs e)
         {
             month = "03";
             changedatelabel1();
             label28.ForeColor = Color.White;
         }
-
         private void label27_Click(object sender, EventArgs e)
         {
             month = "04";
             changedatelabel1();
             label27.ForeColor = Color.White;
         }
-
         private void label26_Click(object sender, EventArgs e)
         {
             month = "05";
             changedatelabel1();
             label26.ForeColor = Color.White;
         }
-
         private void label25_Click(object sender, EventArgs e)
         {
             month = "06";
             changedatelabel1();
             label25.ForeColor = Color.White;
         }
-
         private void label24_Click(object sender, EventArgs e)
         {
             month = "07";
             changedatelabel1();
             label24.ForeColor = Color.White;
         }
-
         private void label23_Click(object sender, EventArgs e)
         {
             month = "08";
             changedatelabel1();
             label23.ForeColor = Color.White;
         }
-
         private void label22_Click(object sender, EventArgs e)
         {
             month = "09";
             changedatelabel1();
             label22.ForeColor = Color.White;
         }
-
         private void label32_Click(object sender, EventArgs e)
         {
             month = "10";
             changedatelabel1();
             label32.ForeColor = Color.White;
         }
-
         private void label33_Click(object sender, EventArgs e)
         {
             month = "11";
             changedatelabel1();
             label33.ForeColor = Color.White;
         }
-
         private void label34_Click(object sender, EventArgs e)
         {
             month = "12";
             changedatelabel1();
             label34.ForeColor = Color.White;
         }
-
         private void label31_MouseEnter(object sender, EventArgs e)
         {
             label31.ForeColor = Color.White;
         }
-
         private void label30_MouseEnter(object sender, EventArgs e)
         {
             label30.ForeColor = Color.White;
         }
-
         private void label29_MouseEnter(object sender, EventArgs e)
         {
             label29.ForeColor = Color.White;
         }
-
         private void label28_MouseEnter(object sender, EventArgs e)
         {
             label28.ForeColor = Color.White;
         }
-
         private void label27_MouseEnter(object sender, EventArgs e)
         {
             label27.ForeColor = Color.White;
         }
-
         private void label26_MouseEnter(object sender, EventArgs e)
         {
             label26.ForeColor = Color.White;
         }
-
         private void label25_MouseEnter(object sender, EventArgs e)
         {
             label25.ForeColor = Color.White;
         }
-
         private void label24_MouseEnter(object sender, EventArgs e)
         {
             label24.ForeColor = Color.White;
         }
-
         private void label23_MouseEnter(object sender, EventArgs e)
         {
             label23.ForeColor = Color.White;
         }
-
         private void label22_MouseEnter(object sender, EventArgs e)
         {
             label22.ForeColor = Color.White;
         }
-
         private void label32_MouseEnter(object sender, EventArgs e)
         {
             label32.ForeColor = Color.White;
         }
-
         private void label33_MouseEnter(object sender, EventArgs e)
         {
             label33.ForeColor = Color.White;
         }
-
         private void label34_MouseEnter(object sender, EventArgs e)
         {
             label34.ForeColor = Color.White;
         }
-
         private void label31_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "xx")
-            {
-                label31.ForeColor = Color.White;
-            }
-            else
-            {
-                label31.ForeColor = Color.Gray;
-            }
+            monthmouseleave("xx", label31);
         }
-
         private void label30_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "01")
-            {
-                label30.ForeColor = Color.White;
-            }
-            else
-            {
-                label30.ForeColor = Color.Gray;
-            }
+            monthmouseleave("01", label30);
         }
-
         private void label29_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "02")
-            {
-                label29.ForeColor = Color.White;
-            }
-            else
-            {
-                label29.ForeColor = Color.Gray;
-            }
+            monthmouseleave("02", label29);
         }
-
         private void label28_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "03")
-            {
-                label28.ForeColor = Color.White;
-            }
-            else
-            {
-                label28.ForeColor = Color.Gray;
-            }
+            monthmouseleave("03", label28);
         }
-
         private void label27_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "04")
-            {
-                label27.ForeColor = Color.White;
-            }
-            else
-            {
-                label27.ForeColor = Color.Gray;
-            }
+            monthmouseleave("04", label27);
         }
-
         private void label26_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "05")
-            {
-                label26.ForeColor = Color.White;
-            }
-            else
-            {
-                label26.ForeColor = Color.Gray;
-            }
+            monthmouseleave("05", label26);
         }
-
         private void label25_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "06")
-            {
-                label25.ForeColor = Color.White;
-            }
-            else
-            {
-                label25.ForeColor = Color.Gray;
-            }
+            monthmouseleave("06", label25);
         }
-
         private void label24_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "07")
-            {
-                label24.ForeColor = Color.White;
-            }
-            else
-            {
-                label24.ForeColor = Color.Gray;
-            }
+            monthmouseleave("07", label24);
         }
-
         private void label23_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "08")
-            {
-                label23.ForeColor = Color.White;
-            }
-            else
-            {
-                label23.ForeColor = Color.Gray;
-            }
+            monthmouseleave("08", label23);
         }
-
         private void label22_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "09")
-            {
-                label22.ForeColor = Color.White;
-            }
-            else
-            {
-                label22.ForeColor = Color.Gray;
-            }
+            monthmouseleave("09", label22);
         }
-
         private void label32_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "10")
-            {
-                label32.ForeColor = Color.White;
-            }
-            else
-            {
-                label32.ForeColor = Color.Gray;
-            }
+            monthmouseleave("10", label32);
         }
-
         private void label33_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "11")
-            {
-                label33.ForeColor = Color.White;
-            }
-            else
-            {
-                label33.ForeColor = Color.Gray;
-            }
+            monthmouseleave("11", label33);
         }
-
         private void label34_MouseLeave(object sender, EventArgs e)
         {
-            if (month == "12")
+            monthmouseleave("12", label34);
+        }
+        void monthmouseleave(string m, Control c)
+        {
+            if(month == m)
             {
-                label34.ForeColor = Color.White;
+                c.ForeColor = Color.White;
             }
             else
             {
-                label34.ForeColor = Color.Gray;
+                c.ForeColor = Color.Gray;
             }
+        }
+        private void label47_Click(object sender, EventArgs e)
+        {
+            day = "xx";
+            changedatelabel2();
+            label47.ForeColor = Color.White;
+        }
+        void changedatelabel2()
+        {
+            label11.Text = "Applied date: " + year + "." + month + "." + day;
+            foreach (Label l in panel9.Controls.OfType<Label>())
+            {
+                l.ForeColor = Color.Gray;
+            }
+        }
+        private void label46_Click(object sender, EventArgs e)
+        {
+            day = "01";
+            changedatelabel2();
+            label46.ForeColor = Color.White;
+        }
+        private void label35_Click(object sender, EventArgs e)
+        {
+            day = "02";
+            changedatelabel2();
+            label35.ForeColor = Color.White;
+        }
+        private void label36_Click(object sender, EventArgs e)
+        {
+            day = "03";
+            changedatelabel2();
+            label36.ForeColor = Color.White;
+        }
+        private void label37_Click(object sender, EventArgs e)
+        {
+            day = "04";
+            changedatelabel2();
+            label37.ForeColor = Color.White;
+        }
+        private void label43_Click(object sender, EventArgs e)
+        {
+            day = "05";
+            changedatelabel2();
+            label43.ForeColor = Color.White;
+        }
+        private void label42_Click(object sender, EventArgs e)
+        {
+            day = "06";
+            changedatelabel2();
+            label42.ForeColor = Color.White;
+        }
+        private void label38_Click(object sender, EventArgs e)
+        {
+            day = "07";
+            changedatelabel2();
+            label38.ForeColor = Color.White;
+        }
+        private void label49_Click(object sender, EventArgs e)
+        {
+            day = "08";
+            changedatelabel2();
+            label49.ForeColor = Color.White;
+        }
+        private void label48_Click(object sender, EventArgs e)
+        {
+            day = "09";
+            changedatelabel2();
+            label48.ForeColor = Color.White;
+        }
+        private void label39_Click(object sender, EventArgs e)
+        {
+            day = "10";
+            changedatelabel2();
+            label39.ForeColor = Color.White;
+        }
+        private void label45_Click(object sender, EventArgs e)
+        {
+            day = "11";
+            changedatelabel2();
+            label45.ForeColor = Color.White;
+        }
+        private void label44_Click(object sender, EventArgs e)
+        {
+            day = "12";
+            changedatelabel2();
+            label44.ForeColor = Color.White;
+        }
+        private void label40_Click(object sender, EventArgs e)
+        {
+            day = "13";
+            changedatelabel2();
+            label40.ForeColor = Color.White;
+        }
+        private void label53_Click(object sender, EventArgs e)
+        {
+            day = "14";
+            changedatelabel2();
+            label53.ForeColor = Color.White;
+        }
+        private void label52_Click(object sender, EventArgs e)
+        {
+            day = "15";
+            changedatelabel2();
+            label52.ForeColor = Color.White;
+        }
+        private void label41_Click(object sender, EventArgs e)
+        {
+            day = "16";
+            changedatelabel2();
+            label41.ForeColor = Color.White;
+        }
+        private void label51_Click(object sender, EventArgs e)
+        {
+            day = "17";
+            changedatelabel2();
+            label51.ForeColor = Color.White;
+        }
+        private void label50_Click(object sender, EventArgs e)
+        {
+            day = "18";
+            changedatelabel2();
+            label50.ForeColor = Color.White;
+        }
+        private void label62_Click(object sender, EventArgs e)
+        {
+            day = "19";
+            changedatelabel2();
+            label62.ForeColor = Color.White;
+        }
+        private void label59_Click(object sender, EventArgs e)
+        {
+            day = "20";
+            changedatelabel2();
+            label59.ForeColor = Color.White;
+        }
+        private void label58_Click(object sender, EventArgs e)
+        {
+            day = "21";
+            changedatelabel2();
+            label58.ForeColor = Color.White;
+        }
+        private void label61_Click(object sender, EventArgs e)
+        {
+            day = "22";
+            changedatelabel2();
+            label61.ForeColor = Color.White;
+        }
+        private void label57_Click(object sender, EventArgs e)
+        {
+            day = "23";
+            changedatelabel2();
+            label57.ForeColor = Color.White;
+        }
+        private void label56_Click(object sender, EventArgs e)
+        {
+            day = "24";
+            changedatelabel2();
+            label56.ForeColor = Color.White;
+        }
+        private void label60_Click(object sender, EventArgs e)
+        {
+            day = "25";
+            changedatelabel2();
+            label60.ForeColor = Color.White;
+        }
+        private void label55_Click(object sender, EventArgs e)
+        {
+            day = "26";
+            changedatelabel2();
+            label55.ForeColor = Color.White;
+        }
+        private void label54_Click(object sender, EventArgs e)
+        {
+            day = "27";
+            changedatelabel2();
+            label54.ForeColor = Color.White;
+        }
+        private void label65_Click(object sender, EventArgs e)
+        {
+            day = "28";
+            changedatelabel2();
+            label65.ForeColor = Color.White;
+        }
+        private void label64_Click(object sender, EventArgs e)
+        {
+            day = "29";
+            changedatelabel2();
+            label64.ForeColor = Color.White;
+        }
+        private void label63_Click(object sender, EventArgs e)
+        {
+            day = "30";
+            changedatelabel2();
+            label63.ForeColor = Color.White;
+        }
+        private void label66_Click(object sender, EventArgs e)
+        {
+            day = "31";
+            changedatelabel2();
+            label66.ForeColor = Color.White;
+        }
+        private void label46_MouseEnter(object sender, EventArgs e)
+        {
+            label46.ForeColor = Color.White;
+        }
+        private void label47_MouseEnter(object sender, EventArgs e)
+        {
+            label47.ForeColor = Color.White;
+        }
+        private void label35_MouseEnter(object sender, EventArgs e)
+        {
+            label35.ForeColor = Color.White;
+        }
+        private void label36_MouseEnter(object sender, EventArgs e)
+        {
+            label36.ForeColor = Color.White;
+        }
+        private void label37_MouseEnter(object sender, EventArgs e)
+        {
+            label37.ForeColor = Color.White;
+        }
+        private void label43_MouseEnter(object sender, EventArgs e)
+        {
+            label43.ForeColor = Color.White;
+        }
+        private void label42_MouseEnter(object sender, EventArgs e)
+        {
+            label42.ForeColor = Color.White;
+        }
+        private void label38_MouseEnter(object sender, EventArgs e)
+        {
+            label38.ForeColor = Color.White;
+        }
+        private void label49_MouseEnter(object sender, EventArgs e)
+        {
+            label49.ForeColor = Color.White;
+        }
+        private void label48_MouseEnter(object sender, EventArgs e)
+        {
+            label48.ForeColor = Color.White;
+        }
+        private void label39_MouseEnter(object sender, EventArgs e)
+        {
+            label39.ForeColor = Color.White;
+        }
+        private void label45_MouseEnter(object sender, EventArgs e)
+        {
+            label45.ForeColor = Color.White;
+        }
+        private void label44_MouseEnter(object sender, EventArgs e)
+        {
+            label44.ForeColor = Color.White;
+        }
+        private void label40_MouseEnter(object sender, EventArgs e)
+        {
+            label40.ForeColor = Color.White;
+        }
+        private void label53_MouseEnter(object sender, EventArgs e)
+        {
+            label53.ForeColor = Color.White;
+        }
+        private void label52_MouseEnter(object sender, EventArgs e)
+        {
+            label52.ForeColor = Color.White;
+        }
+        private void label41_MouseEnter(object sender, EventArgs e)
+        {
+            label41.ForeColor = Color.White;
+        }
+        private void label51_MouseEnter(object sender, EventArgs e)
+        {
+            label51.ForeColor = Color.White;
+        }
+        private void label50_MouseEnter(object sender, EventArgs e)
+        {
+            label50.ForeColor = Color.White;
+        }
+        private void label62_MouseEnter(object sender, EventArgs e)
+        {
+            label62.ForeColor = Color.White;
+        }
+        private void label59_MouseEnter(object sender, EventArgs e)
+        {
+            label59.ForeColor = Color.White;
+        }
+        private void label58_MouseEnter(object sender, EventArgs e)
+        {
+            label58.ForeColor = Color.White;
+        }
+        private void label61_MouseEnter(object sender, EventArgs e)
+        {
+            label61.ForeColor = Color.White;
+        }
+        private void label57_MouseEnter(object sender, EventArgs e)
+        {
+            label57.ForeColor = Color.White;
+        }
+        private void label56_MouseEnter(object sender, EventArgs e)
+        {
+            label56.ForeColor = Color.White;
+        }
+        private void label60_MouseEnter(object sender, EventArgs e)
+        {
+            label60.ForeColor = Color.White;
+        }
+        private void label55_MouseEnter(object sender, EventArgs e)
+        {
+            label55.ForeColor = Color.White;
+        }
+        private void label54_MouseEnter(object sender, EventArgs e)
+        {
+            label54.ForeColor = Color.White;
+        }
+        private void label65_MouseEnter(object sender, EventArgs e)
+        {
+            label65.ForeColor = Color.White;
+        }
+        private void label64_MouseEnter(object sender, EventArgs e)
+        {
+            label64.ForeColor = Color.White;
+        }
+        private void label63_MouseEnter(object sender, EventArgs e)
+        {
+            label63.ForeColor = Color.White;
+        }
+        private void label66_MouseEnter(object sender, EventArgs e)
+        {
+            label66.ForeColor = Color.White;
+        }
+        private void label51_MouseEnter_1(object sender, EventArgs e)
+        {
+            label51.ForeColor = Color.White;
+        }
+        void checkday(string d, Control c)
+        {
+            if (day == d)
+            {
+                c.ForeColor = Color.White;
+            }
+            else
+            {
+                c.ForeColor = Color.Gray;
+            }
+        }
+        private void label47_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("xx", label47);
+        } 
+        private void label46_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("01", label46);
+        }
+        private void label35_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("02", label35);
+        }
+        private void label36_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("03", label36);
+        }
+        private void label37_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("04", label37);
+        }
+        private void label43_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("05", label43);
+        }
+        private void label42_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("06", label42);
+        }
+        private void label38_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("07", label38);
+        }
+        private void label49_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("08", label49);
+        }
+        private void label48_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("09", label48);
+        }
+        private void label39_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("10", label39);
+        }
+        private void label45_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("11", label45);
+        }
+        private void label44_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("12", label44);
+        }
+        private void label40_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("13", label40);
+        }
+        private void label53_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("14", label53);
+        }
+        private void label52_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("15", label52);
+        }
+        private void label41_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("16", label41);
+        }
+        private void label51_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("17", label51);
+        }
+        private void label50_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("18", label50);
+        }
+        private void label62_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("19", label62);
+        }
+        private void label59_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("20", label59);
+        }
+        private void label58_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("21", label58);
+        }
+        private void label61_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("22", label61);
+        }
+        private void label57_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("23", label57);
+        }
+        private void label56_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("24", label56);
+        }
+        private void label60_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("25", label60);
+        }
+        private void label55_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("26", label55);
+        }
+        private void label54_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("27", label54);
+        }
+        private void label65_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("28", label65);
+        }
+        private void label64_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("29", label64);
+        }
+        private void label63_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("30", label63);
+        }
+        private void label66_MouseLeave(object sender, EventArgs e)
+        {
+            checkday("31", label66);
         }
     }
 }
