@@ -511,12 +511,12 @@ namespace MUWA
             if (panel9.Visible == false)
             {
                 panel9.Visible = true;
-                label10.Text = "Month ↓";
+                label10.Text = "Day ↓";
             }
             else
             {
                 panel9.Visible = false;
-                label10.Text = "Month ↑";
+                label10.Text = "Day ↑";
             }
         }
         private void label10_MouseEnter(object sender, EventArgs e)
