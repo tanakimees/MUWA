@@ -57,9 +57,9 @@ namespace MUWA
             roundedCorners(label67, 10);
             roundedCorners(label8, 10);
             roundedCorners(panel7, 10);
+            roundedCorners(panel10, 10);
             roundedCorners(panel8, 10);
             roundedCorners(panel9, 10);
-            roundedCorners(panel10, 10);
         }
 
         void roundedCorners(Control c, int x)
@@ -87,6 +87,18 @@ namespace MUWA
             FileDownloader fd = new FileDownloader();
             fd.DownloadFileAsync("https://drive.google.com/file/d/14o452mLGhshdSb5PP2tiOlXIgfYziCFk/view?usp=sharing", @"C:\Temp\muwaIOTD.txt");
             fd.Dispose();
+            foreachctrl(panel10, 10);
+            foreachctrl(panel7, 10);
+            foreachctrl(panel8, 10);
+            foreachctrl(panel9, 10);
+        }
+
+        void foreachctrl(Control c1, int x)
+        {
+            foreach(Label l in c1.Controls.OfType<Label>())
+            {
+                roundedCorners(l, x);
+            }
         }
 
         private void pictureBox1_MouseEnter(object sender, EventArgs e)
@@ -230,12 +242,10 @@ namespace MUWA
             if(panel7.Visible == false)
             {
                 panel7.Visible = true;
-                label9.Text = "Year ↓";
             }
             else
             {
                 panel7.Visible = false;
-                label9.Text = "Year ↑";
             }
         }
 
@@ -490,12 +500,10 @@ namespace MUWA
             if (panel8.Visible == false)
             {
                 panel8.Visible = true;
-                label8.Text = "Month ↓";
             }
             else
             {
                 panel8.Visible = false;
-                label8.Text = "Month ↑";
             }
         }
         private void label8_MouseEnter(object sender, EventArgs e)
@@ -514,12 +522,10 @@ namespace MUWA
             if (panel9.Visible == false)
             {
                 panel9.Visible = true;
-                label10.Text = "Day ↓";
             }
             else
             {
                 panel9.Visible = false;
-                label10.Text = "Day ↑";
             }
         }
         private void label10_MouseEnter(object sender, EventArgs e)
@@ -1215,12 +1221,10 @@ namespace MUWA
             if (panel10.Visible == false)
             {
                 panel10.Visible = true;
-                label67.Text = "Location ↓";
             }
             else
             {
                 panel10.Visible = false;
-                label67.Text = "Location ↑";
             }
         }
 
