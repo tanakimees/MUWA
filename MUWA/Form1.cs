@@ -43,21 +43,15 @@ namespace MUWA
             roundedCorners(panel3, 40);
             roundedCorners(panel4, 40);
             roundedCorners(label4, 20);
-            roundedCorners(label3, 20);
             roundedCorners(label5, 20);
             roundedCorners(label6, 20);
             roundedCorners(label7, 20);
             roundedCorners(panel5, 40);
             roundedCorners(webBrowser1, 20);
             roundedCorners(panel6, 40);
-            roundedCorners(label9, 10);
-            roundedCorners(label11, 10);
-            roundedCorners(label10, 10);
-            roundedCorners(label68, 10);
-            roundedCorners(label67, 10);
-            roundedCorners(label8, 10);
             roundedCorners(panel7, 10);
             roundedCorners(panel10, 10);
+            roundedCorners(panel11, 10);
             roundedCorners(panel8, 10);
             roundedCorners(panel9, 10);
         }
@@ -91,6 +85,8 @@ namespace MUWA
             foreachctrl(panel7, 10);
             foreachctrl(panel8, 10);
             foreachctrl(panel9, 10);
+            foreachctrl(panel11, 10);
+            foreachctrl(panel6, 10);
         }
 
         void foreachctrl(Control c1, int x)
@@ -1215,7 +1211,6 @@ namespace MUWA
         {
             label67.ForeColor = Color.White;
         }
-
         private void label67_Click(object sender, EventArgs e)
         {
             if (panel10.Visible == false)
@@ -1227,13 +1222,228 @@ namespace MUWA
                 panel10.Visible = false;
             }
         }
-
         private void label67_MouseLeave(object sender, EventArgs e)
         {
             if (panel10.Visible == false)
             {
                 label67.ForeColor = Color.Gray;
             }
+        }
+        private void label98_MouseEnter(object sender, EventArgs e)
+        {
+            label98.ForeColor = Color.White;
+        }
+        private void label98_MouseLeave(object sender, EventArgs e)
+        {
+            if (panel11.Visible == false)
+            {
+                label98.ForeColor = Color.Gray;
+            }
+        }
+        private void label98_Click(object sender, EventArgs e)
+        {
+            if (panel11.Visible == false)
+            {
+                panel11.Visible = true;
+            }
+            else
+            {
+                panel11.Visible = false;
+            }
+        }
+        private void label70_MouseEnter(object sender, EventArgs e)
+        {
+            label70.ForeColor = Color.White;
+        }
+
+        private void label69_MouseEnter(object sender, EventArgs e)
+        {
+            label69.ForeColor = Color.White;
+        }
+
+        private void label80_MouseEnter(object sender, EventArgs e)
+        {
+            label80.ForeColor = Color.White;
+        }
+
+        private void label71_MouseEnter(object sender, EventArgs e)
+        {
+            label71.ForeColor = Color.White;
+        }
+
+        private void label72_MouseEnter(object sender, EventArgs e)
+        {
+            label72.ForeColor = Color.White;
+        }
+
+        private void label73_MouseEnter(object sender, EventArgs e)
+        {
+            label73.ForeColor = Color.White;
+        }
+
+        private void label74_MouseEnter(object sender, EventArgs e)
+        {
+            label74.ForeColor = Color.White;
+        }
+
+        private void label75_MouseEnter(object sender, EventArgs e)
+        {
+            label75.ForeColor = Color.White;
+        }
+
+        private void label76_MouseEnter(object sender, EventArgs e)
+        {
+            label76.ForeColor = Color.White;
+        }
+
+        private void label77_MouseEnter(object sender, EventArgs e)
+        {
+            label77.ForeColor = Color.White;
+        }
+
+        private void label78_MouseEnter(object sender, EventArgs e)
+        {
+            label78.ForeColor = Color.White;
+        }
+
+        private void label79_MouseEnter(object sender, EventArgs e)
+        {
+            label79.ForeColor = Color.White;
+        }
+
+        private void label90_MouseEnter(object sender, EventArgs e)
+        {
+            label90.ForeColor = Color.White;
+        }
+
+        private void label92_MouseEnter(object sender, EventArgs e)
+        {
+            label92.ForeColor = Color.White;
+        }
+
+        private void label94_MouseEnter(object sender, EventArgs e)
+        {
+            label94.ForeColor = Color.White;
+        }
+
+        private void label96_MouseEnter(object sender, EventArgs e)
+        {
+            label96.ForeColor = Color.White;
+        }
+
+        private void label81_MouseEnter(object sender, EventArgs e)
+        {
+            label81.ForeColor = Color.White;
+        }
+
+        private void label82_MouseEnter(object sender, EventArgs e)
+        {
+            label82.ForeColor = Color.White;
+        }
+
+        private void label83_MouseEnter(object sender, EventArgs e)
+        {
+            label83.ForeColor = Color.White;
+        }
+
+        private void label84_MouseEnter(object sender, EventArgs e)
+        {
+            label84.ForeColor = Color.White;
+        }
+
+        private void label85_MouseEnter(object sender, EventArgs e)
+        {
+            label85.ForeColor = Color.White;
+        }
+
+        private void label86_MouseEnter(object sender, EventArgs e)
+        {
+            label86.ForeColor = Color.White;
+        }
+
+        private void label89_MouseEnter(object sender, EventArgs e)
+        {
+            label89.ForeColor = Color.White;
+        }
+
+        private void label88_MouseEnter(object sender, EventArgs e)
+        {
+            label88.ForeColor = Color.White;
+        }
+
+        private void label87_MouseEnter(object sender, EventArgs e)
+        {
+            label87.ForeColor = Color.White;
+        }
+
+        private void label91_MouseEnter(object sender, EventArgs e)
+        {
+            label91.ForeColor = Color.White;
+        }
+
+        private void label93_MouseEnter(object sender, EventArgs e)
+        {
+            label93.ForeColor = Color.White;
+        }
+
+        private void label95_MouseEnter(object sender, EventArgs e)
+        {
+            label95.ForeColor = Color.White;
+        }
+
+        private void label97_MouseEnter(object sender, EventArgs e)
+        {
+            label97.ForeColor = Color.White;
+        }
+
+        private void label127_MouseEnter(object sender, EventArgs e)
+        {
+            label127.ForeColor = Color.White;
+        }
+
+        private void label126_MouseEnter(object sender, EventArgs e)
+        {
+            label126.ForeColor = Color.White;
+        }
+
+        private void label99_MouseEnter(object sender, EventArgs e)
+        {
+            label99.ForeColor = Color.White;
+        }
+
+        private void label100_MouseEnter(object sender, EventArgs e)
+        {
+            label100.ForeColor = Color.White;
+        }
+
+        private void label101_MouseEnter(object sender, EventArgs e)
+        {
+            label101.ForeColor = Color.White;
+        }
+
+        private void label102_MouseEnter(object sender, EventArgs e)
+        {
+            label102.ForeColor = Color.White;
+        }
+
+        private void label103_MouseEnter(object sender, EventArgs e)
+        {
+            label103.ForeColor = Color.White;
+        }
+
+        private void label104_MouseEnter(object sender, EventArgs e)
+        {
+            label104.ForeColor = Color.White;
+        }
+
+        private void label105_MouseEnter(object sender, EventArgs e)
+        {
+            label105.ForeColor = Color.White;
+        }
+
+        private void label106_MouseEnter(object sender, EventArgs e)
+        {
+            label106.ForeColor = Color.White;
         }
     }
 }

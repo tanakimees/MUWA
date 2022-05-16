@@ -44,6 +44,47 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.label97 = new System.Windows.Forms.Label();
+            this.label96 = new System.Windows.Forms.Label();
+            this.label95 = new System.Windows.Forms.Label();
+            this.label94 = new System.Windows.Forms.Label();
+            this.label93 = new System.Windows.Forms.Label();
+            this.label92 = new System.Windows.Forms.Label();
+            this.label91 = new System.Windows.Forms.Label();
+            this.label90 = new System.Windows.Forms.Label();
+            this.label87 = new System.Windows.Forms.Label();
+            this.label88 = new System.Windows.Forms.Label();
+            this.label89 = new System.Windows.Forms.Label();
+            this.label86 = new System.Windows.Forms.Label();
+            this.label85 = new System.Windows.Forms.Label();
+            this.label84 = new System.Windows.Forms.Label();
+            this.label83 = new System.Windows.Forms.Label();
+            this.label82 = new System.Windows.Forms.Label();
+            this.label81 = new System.Windows.Forms.Label();
+            this.label80 = new System.Windows.Forms.Label();
+            this.label79 = new System.Windows.Forms.Label();
+            this.label78 = new System.Windows.Forms.Label();
+            this.label77 = new System.Windows.Forms.Label();
+            this.label76 = new System.Windows.Forms.Label();
+            this.label75 = new System.Windows.Forms.Label();
+            this.label74 = new System.Windows.Forms.Label();
+            this.label73 = new System.Windows.Forms.Label();
+            this.label72 = new System.Windows.Forms.Label();
+            this.label71 = new System.Windows.Forms.Label();
+            this.label70 = new System.Windows.Forms.Label();
+            this.label69 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
             this.label66 = new System.Windows.Forms.Label();
             this.label63 = new System.Windows.Forms.Label();
@@ -78,10 +119,6 @@
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.label71 = new System.Windows.Forms.Label();
-            this.label70 = new System.Windows.Forms.Label();
-            this.label69 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -103,58 +140,37 @@
             this.label29 = new System.Windows.Forms.Label();
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label72 = new System.Windows.Forms.Label();
-            this.label73 = new System.Windows.Forms.Label();
-            this.label74 = new System.Windows.Forms.Label();
-            this.label75 = new System.Windows.Forms.Label();
-            this.label76 = new System.Windows.Forms.Label();
-            this.label77 = new System.Windows.Forms.Label();
-            this.label78 = new System.Windows.Forms.Label();
-            this.label79 = new System.Windows.Forms.Label();
-            this.label80 = new System.Windows.Forms.Label();
-            this.label81 = new System.Windows.Forms.Label();
-            this.label82 = new System.Windows.Forms.Label();
-            this.label83 = new System.Windows.Forms.Label();
-            this.label84 = new System.Windows.Forms.Label();
-            this.label85 = new System.Windows.Forms.Label();
-            this.label86 = new System.Windows.Forms.Label();
-            this.label87 = new System.Windows.Forms.Label();
-            this.label88 = new System.Windows.Forms.Label();
-            this.label89 = new System.Windows.Forms.Label();
-            this.label90 = new System.Windows.Forms.Label();
-            this.label91 = new System.Windows.Forms.Label();
-            this.label92 = new System.Windows.Forms.Label();
-            this.label93 = new System.Windows.Forms.Label();
-            this.label94 = new System.Windows.Forms.Label();
-            this.label95 = new System.Windows.Forms.Label();
-            this.label96 = new System.Windows.Forms.Label();
-            this.label97 = new System.Windows.Forms.Label();
+            this.label98 = new System.Windows.Forms.Label();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.label126 = new System.Windows.Forms.Label();
+            this.label127 = new System.Windows.Forms.Label();
+            this.label99 = new System.Windows.Forms.Label();
+            this.label100 = new System.Windows.Forms.Label();
+            this.label101 = new System.Windows.Forms.Label();
+            this.label102 = new System.Windows.Forms.Label();
+            this.label103 = new System.Windows.Forms.Label();
+            this.label104 = new System.Windows.Forms.Label();
+            this.label105 = new System.Windows.Forms.Label();
+            this.label106 = new System.Windows.Forms.Label();
+            this.label107 = new System.Windows.Forms.Label();
+            this.label108 = new System.Windows.Forms.Label();
+            this.label109 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.panel10.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel10.SuspendLayout();
             this.panel8.SuspendLayout();
-            this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.panel11.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -309,6 +325,7 @@
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.panel2.Controls.Add(this.panel11);
             this.panel2.Controls.Add(this.panel7);
             this.panel2.Controls.Add(this.panel10);
             this.panel2.Controls.Add(this.panel9);
@@ -318,6 +335,629 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1600, 850);
             this.panel2.TabIndex = 1;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.panel7.Controls.Add(this.label21);
+            this.panel7.Controls.Add(this.label20);
+            this.panel7.Controls.Add(this.label19);
+            this.panel7.Controls.Add(this.label18);
+            this.panel7.Controls.Add(this.label17);
+            this.panel7.Controls.Add(this.label16);
+            this.panel7.Controls.Add(this.label15);
+            this.panel7.Controls.Add(this.label14);
+            this.panel7.Controls.Add(this.label13);
+            this.panel7.Controls.Add(this.label12);
+            this.panel7.Location = new System.Drawing.Point(350, 20);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(103, 355);
+            this.panel7.TabIndex = 12;
+            this.panel7.Visible = false;
+            // 
+            // label21
+            // 
+            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.Gray;
+            this.label21.Location = new System.Drawing.Point(5, 320);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(93, 30);
+            this.label21.TabIndex = 22;
+            this.label21.Text = "2030";
+            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label21.Click += new System.EventHandler(this.label21_Click);
+            this.label21.MouseEnter += new System.EventHandler(this.label21_MouseEnter);
+            this.label21.MouseLeave += new System.EventHandler(this.label21_MouseLeave);
+            // 
+            // label20
+            // 
+            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label20.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.ForeColor = System.Drawing.Color.Gray;
+            this.label20.Location = new System.Drawing.Point(5, 285);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(93, 30);
+            this.label20.TabIndex = 21;
+            this.label20.Text = "2029";
+            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            this.label20.MouseEnter += new System.EventHandler(this.label20_MouseEnter);
+            this.label20.MouseLeave += new System.EventHandler(this.label20_MouseLeave);
+            // 
+            // label19
+            // 
+            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label19.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label19.ForeColor = System.Drawing.Color.Gray;
+            this.label19.Location = new System.Drawing.Point(5, 250);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(93, 30);
+            this.label19.TabIndex = 20;
+            this.label19.Text = "2028";
+            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label19.Click += new System.EventHandler(this.label19_Click);
+            this.label19.MouseEnter += new System.EventHandler(this.label19_MouseEnter);
+            this.label19.MouseLeave += new System.EventHandler(this.label19_MouseLeave);
+            // 
+            // label18
+            // 
+            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.Color.Gray;
+            this.label18.Location = new System.Drawing.Point(5, 215);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(93, 30);
+            this.label18.TabIndex = 19;
+            this.label18.Text = "2027";
+            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label18.Click += new System.EventHandler(this.label18_Click);
+            this.label18.MouseEnter += new System.EventHandler(this.label18_MouseEnter);
+            this.label18.MouseLeave += new System.EventHandler(this.label18_MouseLeave);
+            // 
+            // label17
+            // 
+            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label17.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.Color.Gray;
+            this.label17.Location = new System.Drawing.Point(5, 180);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(93, 30);
+            this.label17.TabIndex = 18;
+            this.label17.Text = "2026";
+            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label17.Click += new System.EventHandler(this.label17_Click);
+            this.label17.MouseEnter += new System.EventHandler(this.label17_MouseEnter);
+            this.label17.MouseLeave += new System.EventHandler(this.label17_MouseLeave);
+            // 
+            // label16
+            // 
+            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label16.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.ForeColor = System.Drawing.Color.Gray;
+            this.label16.Location = new System.Drawing.Point(5, 145);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(93, 30);
+            this.label16.TabIndex = 17;
+            this.label16.Text = "2025";
+            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label16.Click += new System.EventHandler(this.label16_Click);
+            this.label16.MouseEnter += new System.EventHandler(this.label16_MouseEnter);
+            this.label16.MouseLeave += new System.EventHandler(this.label16_MouseLeave);
+            // 
+            // label15
+            // 
+            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.ForeColor = System.Drawing.Color.Gray;
+            this.label15.Location = new System.Drawing.Point(5, 110);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(93, 30);
+            this.label15.TabIndex = 16;
+            this.label15.Text = "2024";
+            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label15.Click += new System.EventHandler(this.label15_Click);
+            this.label15.MouseEnter += new System.EventHandler(this.label15_MouseEnter);
+            this.label15.MouseLeave += new System.EventHandler(this.label15_MouseLeave);
+            // 
+            // label14
+            // 
+            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.ForeColor = System.Drawing.Color.Gray;
+            this.label14.Location = new System.Drawing.Point(5, 75);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(93, 30);
+            this.label14.TabIndex = 15;
+            this.label14.Text = "2023";
+            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label14.Click += new System.EventHandler(this.label14_Click);
+            this.label14.MouseEnter += new System.EventHandler(this.label14_MouseEnter);
+            this.label14.MouseLeave += new System.EventHandler(this.label14_MouseLeave);
+            // 
+            // label13
+            // 
+            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label13.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Gray;
+            this.label13.Location = new System.Drawing.Point(5, 40);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(93, 30);
+            this.label13.TabIndex = 14;
+            this.label13.Text = "2022";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label13.Click += new System.EventHandler(this.label13_Click);
+            this.label13.MouseEnter += new System.EventHandler(this.label13_MouseEnter);
+            this.label13.MouseLeave += new System.EventHandler(this.label13_MouseLeave);
+            // 
+            // label12
+            // 
+            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.Color.White;
+            this.label12.Location = new System.Drawing.Point(5, 5);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(93, 30);
+            this.label12.TabIndex = 13;
+            this.label12.Text = "Any";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label12.Click += new System.EventHandler(this.label12_Click);
+            this.label12.MouseEnter += new System.EventHandler(this.label12_MouseEnter);
+            this.label12.MouseLeave += new System.EventHandler(this.label12_MouseLeave);
+            // 
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.panel10.Controls.Add(this.label97);
+            this.panel10.Controls.Add(this.label96);
+            this.panel10.Controls.Add(this.label95);
+            this.panel10.Controls.Add(this.label94);
+            this.panel10.Controls.Add(this.label93);
+            this.panel10.Controls.Add(this.label92);
+            this.panel10.Controls.Add(this.label91);
+            this.panel10.Controls.Add(this.label90);
+            this.panel10.Controls.Add(this.label87);
+            this.panel10.Controls.Add(this.label88);
+            this.panel10.Controls.Add(this.label89);
+            this.panel10.Controls.Add(this.label86);
+            this.panel10.Controls.Add(this.label85);
+            this.panel10.Controls.Add(this.label84);
+            this.panel10.Controls.Add(this.label83);
+            this.panel10.Controls.Add(this.label82);
+            this.panel10.Controls.Add(this.label81);
+            this.panel10.Controls.Add(this.label80);
+            this.panel10.Controls.Add(this.label79);
+            this.panel10.Controls.Add(this.label78);
+            this.panel10.Controls.Add(this.label77);
+            this.panel10.Controls.Add(this.label76);
+            this.panel10.Controls.Add(this.label75);
+            this.panel10.Controls.Add(this.label74);
+            this.panel10.Controls.Add(this.label73);
+            this.panel10.Controls.Add(this.label72);
+            this.panel10.Controls.Add(this.label71);
+            this.panel10.Controls.Add(this.label70);
+            this.panel10.Controls.Add(this.label69);
+            this.panel10.Location = new System.Drawing.Point(699, 20);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(300, 460);
+            this.panel10.TabIndex = 29;
+            this.panel10.Visible = false;
+            // 
+            // label97
+            // 
+            this.label97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label97.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label97.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label97.ForeColor = System.Drawing.Color.Gray;
+            this.label97.Location = new System.Drawing.Point(152, 430);
+            this.label97.Name = "label97";
+            this.label97.Size = new System.Drawing.Size(142, 25);
+            this.label97.TabIndex = 51;
+            this.label97.Text = "Unknown location";
+            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label97.MouseEnter += new System.EventHandler(this.label97_MouseEnter);
+            // 
+            // label96
+            // 
+            this.label96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label96.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label96.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label96.ForeColor = System.Drawing.Color.Gray;
+            this.label96.Location = new System.Drawing.Point(5, 430);
+            this.label96.Name = "label96";
+            this.label96.Size = new System.Drawing.Size(142, 25);
+            this.label96.TabIndex = 50;
+            this.label96.Text = "Russia";
+            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label96.MouseEnter += new System.EventHandler(this.label96_MouseEnter);
+            // 
+            // label95
+            // 
+            this.label95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label95.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label95.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label95.ForeColor = System.Drawing.Color.Gray;
+            this.label95.Location = new System.Drawing.Point(152, 400);
+            this.label95.Name = "label95";
+            this.label95.Size = new System.Drawing.Size(142, 25);
+            this.label95.TabIndex = 49;
+            this.label95.Text = "Sevastopol";
+            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label95.MouseEnter += new System.EventHandler(this.label95_MouseEnter);
+            // 
+            // label94
+            // 
+            this.label94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label94.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label94.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label94.ForeColor = System.Drawing.Color.Gray;
+            this.label94.Location = new System.Drawing.Point(5, 400);
+            this.label94.Name = "label94";
+            this.label94.Size = new System.Drawing.Size(142, 25);
+            this.label94.TabIndex = 48;
+            this.label94.Text = "Chernivtsi";
+            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label94.MouseEnter += new System.EventHandler(this.label94_MouseEnter);
+            // 
+            // label93
+            // 
+            this.label93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label93.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label93.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label93.ForeColor = System.Drawing.Color.Gray;
+            this.label93.Location = new System.Drawing.Point(152, 370);
+            this.label93.Name = "label93";
+            this.label93.Size = new System.Drawing.Size(142, 25);
+            this.label93.TabIndex = 47;
+            this.label93.Text = "Kirovohrad";
+            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label93.MouseEnter += new System.EventHandler(this.label93_MouseEnter);
+            // 
+            // label92
+            // 
+            this.label92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label92.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label92.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label92.ForeColor = System.Drawing.Color.Gray;
+            this.label92.Location = new System.Drawing.Point(5, 370);
+            this.label92.Name = "label92";
+            this.label92.Size = new System.Drawing.Size(142, 25);
+            this.label92.TabIndex = 46;
+            this.label92.Text = "Volyn";
+            this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label92.MouseEnter += new System.EventHandler(this.label92_MouseEnter);
+            // 
+            // label91
+            // 
+            this.label91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label91.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label91.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label91.ForeColor = System.Drawing.Color.Gray;
+            this.label91.Location = new System.Drawing.Point(152, 340);
+            this.label91.Name = "label91";
+            this.label91.Size = new System.Drawing.Size(142, 25);
+            this.label91.TabIndex = 45;
+            this.label91.Text = "Chernihiv";
+            this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label91.MouseEnter += new System.EventHandler(this.label91_MouseEnter);
+            // 
+            // label90
+            // 
+            this.label90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label90.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label90.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label90.ForeColor = System.Drawing.Color.Gray;
+            this.label90.Location = new System.Drawing.Point(5, 340);
+            this.label90.Name = "label90";
+            this.label90.Size = new System.Drawing.Size(142, 25);
+            this.label90.TabIndex = 44;
+            this.label90.Text = "Kherson";
+            this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label90.MouseEnter += new System.EventHandler(this.label90_MouseEnter);
+            // 
+            // label87
+            // 
+            this.label87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label87.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label87.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label87.ForeColor = System.Drawing.Color.Gray;
+            this.label87.Location = new System.Drawing.Point(152, 310);
+            this.label87.Name = "label87";
+            this.label87.Size = new System.Drawing.Size(143, 25);
+            this.label87.TabIndex = 43;
+            this.label87.Text = "Ternopil";
+            this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label87.MouseEnter += new System.EventHandler(this.label87_MouseEnter);
+            // 
+            // label88
+            // 
+            this.label88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label88.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label88.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label88.ForeColor = System.Drawing.Color.Gray;
+            this.label88.Location = new System.Drawing.Point(152, 280);
+            this.label88.Name = "label88";
+            this.label88.Size = new System.Drawing.Size(143, 25);
+            this.label88.TabIndex = 42;
+            this.label88.Text = "Sumy";
+            this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label88.MouseEnter += new System.EventHandler(this.label88_MouseEnter);
+            // 
+            // label89
+            // 
+            this.label89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label89.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label89.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label89.ForeColor = System.Drawing.Color.Gray;
+            this.label89.Location = new System.Drawing.Point(152, 250);
+            this.label89.Name = "label89";
+            this.label89.Size = new System.Drawing.Size(143, 25);
+            this.label89.TabIndex = 41;
+            this.label89.Text = "Mykolaiv";
+            this.label89.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label89.MouseEnter += new System.EventHandler(this.label89_MouseEnter);
+            // 
+            // label86
+            // 
+            this.label86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label86.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label86.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label86.ForeColor = System.Drawing.Color.Gray;
+            this.label86.Location = new System.Drawing.Point(152, 220);
+            this.label86.Name = "label86";
+            this.label86.Size = new System.Drawing.Size(143, 25);
+            this.label86.TabIndex = 40;
+            this.label86.Text = "Rivne";
+            this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label86.MouseEnter += new System.EventHandler(this.label86_MouseEnter);
+            // 
+            // label85
+            // 
+            this.label85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label85.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label85.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label85.ForeColor = System.Drawing.Color.Gray;
+            this.label85.Location = new System.Drawing.Point(152, 190);
+            this.label85.Name = "label85";
+            this.label85.Size = new System.Drawing.Size(143, 25);
+            this.label85.TabIndex = 39;
+            this.label85.Text = "Cherkasy";
+            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label85.MouseEnter += new System.EventHandler(this.label85_MouseEnter);
+            // 
+            // label84
+            // 
+            this.label84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label84.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label84.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label84.ForeColor = System.Drawing.Color.Gray;
+            this.label84.Location = new System.Drawing.Point(152, 160);
+            this.label84.Name = "label84";
+            this.label84.Size = new System.Drawing.Size(143, 25);
+            this.label84.TabIndex = 38;
+            this.label84.Text = "Zhytomyr";
+            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label84.MouseEnter += new System.EventHandler(this.label84_MouseEnter);
+            // 
+            // label83
+            // 
+            this.label83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label83.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label83.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label83.ForeColor = System.Drawing.Color.Gray;
+            this.label83.Location = new System.Drawing.Point(152, 130);
+            this.label83.Name = "label83";
+            this.label83.Size = new System.Drawing.Size(143, 25);
+            this.label83.TabIndex = 37;
+            this.label83.Text = "Zakarpattia";
+            this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label83.MouseEnter += new System.EventHandler(this.label83_MouseEnter);
+            // 
+            // label82
+            // 
+            this.label82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label82.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label82.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label82.ForeColor = System.Drawing.Color.Gray;
+            this.label82.Location = new System.Drawing.Point(152, 100);
+            this.label82.Name = "label82";
+            this.label82.Size = new System.Drawing.Size(143, 25);
+            this.label82.TabIndex = 36;
+            this.label82.Text = "Khmelnytskyi";
+            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label82.MouseEnter += new System.EventHandler(this.label82_MouseEnter);
+            // 
+            // label81
+            // 
+            this.label81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label81.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label81.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label81.ForeColor = System.Drawing.Color.Gray;
+            this.label81.Location = new System.Drawing.Point(152, 70);
+            this.label81.Name = "label81";
+            this.label81.Size = new System.Drawing.Size(143, 25);
+            this.label81.TabIndex = 35;
+            this.label81.Text = "Ivano-Frankivsk";
+            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label81.MouseEnter += new System.EventHandler(this.label81_MouseEnter);
+            // 
+            // label80
+            // 
+            this.label80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label80.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label80.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label80.ForeColor = System.Drawing.Color.Gray;
+            this.label80.Location = new System.Drawing.Point(152, 40);
+            this.label80.Name = "label80";
+            this.label80.Size = new System.Drawing.Size(143, 25);
+            this.label80.TabIndex = 34;
+            this.label80.Text = "Poltava";
+            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label80.MouseEnter += new System.EventHandler(this.label80_MouseEnter);
+            // 
+            // label79
+            // 
+            this.label79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label79.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label79.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label79.ForeColor = System.Drawing.Color.Gray;
+            this.label79.Location = new System.Drawing.Point(5, 310);
+            this.label79.Name = "label79";
+            this.label79.Size = new System.Drawing.Size(142, 25);
+            this.label79.TabIndex = 33;
+            this.label79.Text = "Vinnytsia";
+            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label79.MouseEnter += new System.EventHandler(this.label79_MouseEnter);
+            // 
+            // label78
+            // 
+            this.label78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label78.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label78.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label78.ForeColor = System.Drawing.Color.Gray;
+            this.label78.Location = new System.Drawing.Point(5, 280);
+            this.label78.Name = "label78";
+            this.label78.Size = new System.Drawing.Size(142, 25);
+            this.label78.TabIndex = 32;
+            this.label78.Text = "Zaporizhzhia";
+            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label78.MouseEnter += new System.EventHandler(this.label78_MouseEnter);
+            // 
+            // label77
+            // 
+            this.label77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label77.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label77.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label77.ForeColor = System.Drawing.Color.Gray;
+            this.label77.Location = new System.Drawing.Point(5, 250);
+            this.label77.Name = "label77";
+            this.label77.Size = new System.Drawing.Size(142, 25);
+            this.label77.TabIndex = 31;
+            this.label77.Text = "Crimea";
+            this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label77.MouseEnter += new System.EventHandler(this.label77_MouseEnter);
+            // 
+            // label76
+            // 
+            this.label76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label76.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label76.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label76.ForeColor = System.Drawing.Color.Gray;
+            this.label76.Location = new System.Drawing.Point(5, 220);
+            this.label76.Name = "label76";
+            this.label76.Size = new System.Drawing.Size(142, 25);
+            this.label76.TabIndex = 30;
+            this.label76.Text = "Luhansk";
+            this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label76.MouseEnter += new System.EventHandler(this.label76_MouseEnter);
+            // 
+            // label75
+            // 
+            this.label75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label75.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label75.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label75.ForeColor = System.Drawing.Color.Gray;
+            this.label75.Location = new System.Drawing.Point(5, 190);
+            this.label75.Name = "label75";
+            this.label75.Size = new System.Drawing.Size(142, 25);
+            this.label75.TabIndex = 29;
+            this.label75.Text = "Odessa";
+            this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label75.MouseEnter += new System.EventHandler(this.label75_MouseEnter);
+            // 
+            // label74
+            // 
+            this.label74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label74.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label74.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label74.ForeColor = System.Drawing.Color.Gray;
+            this.label74.Location = new System.Drawing.Point(5, 160);
+            this.label74.Name = "label74";
+            this.label74.Size = new System.Drawing.Size(142, 25);
+            this.label74.TabIndex = 28;
+            this.label74.Text = "Lviv";
+            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label74.MouseEnter += new System.EventHandler(this.label74_MouseEnter);
+            // 
+            // label73
+            // 
+            this.label73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label73.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label73.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label73.ForeColor = System.Drawing.Color.Gray;
+            this.label73.Location = new System.Drawing.Point(5, 130);
+            this.label73.Name = "label73";
+            this.label73.Size = new System.Drawing.Size(142, 25);
+            this.label73.TabIndex = 27;
+            this.label73.Text = "Kharkiv";
+            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label73.MouseEnter += new System.EventHandler(this.label73_MouseEnter);
+            // 
+            // label72
+            // 
+            this.label72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label72.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label72.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label72.ForeColor = System.Drawing.Color.Gray;
+            this.label72.Location = new System.Drawing.Point(5, 100);
+            this.label72.Name = "label72";
+            this.label72.Size = new System.Drawing.Size(142, 25);
+            this.label72.TabIndex = 26;
+            this.label72.Text = "Kyiv";
+            this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label72.MouseEnter += new System.EventHandler(this.label72_MouseEnter);
+            // 
+            // label71
+            // 
+            this.label71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label71.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label71.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label71.ForeColor = System.Drawing.Color.Gray;
+            this.label71.Location = new System.Drawing.Point(5, 70);
+            this.label71.Name = "label71";
+            this.label71.Size = new System.Drawing.Size(142, 25);
+            this.label71.TabIndex = 25;
+            this.label71.Text = "Dnipropetrovsk";
+            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label71.MouseEnter += new System.EventHandler(this.label71_MouseEnter);
+            // 
+            // label70
+            // 
+            this.label70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label70.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label70.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label70.ForeColor = System.Drawing.Color.Gray;
+            this.label70.Location = new System.Drawing.Point(5, 40);
+            this.label70.Name = "label70";
+            this.label70.Size = new System.Drawing.Size(142, 25);
+            this.label70.TabIndex = 24;
+            this.label70.Text = "Donetsk";
+            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label70.MouseEnter += new System.EventHandler(this.label70_MouseEnter);
+            // 
+            // label69
+            // 
+            this.label69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label69.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label69.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label69.ForeColor = System.Drawing.Color.White;
+            this.label69.Location = new System.Drawing.Point(5, 5);
+            this.label69.Name = "label69";
+            this.label69.Size = new System.Drawing.Size(290, 30);
+            this.label69.TabIndex = 23;
+            this.label69.Text = "Any";
+            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label69.MouseEnter += new System.EventHandler(this.label69_MouseEnter);
             // 
             // panel9
             // 
@@ -875,6 +1515,10 @@
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.panel6.Controls.Add(this.label109);
+            this.panel6.Controls.Add(this.label108);
+            this.panel6.Controls.Add(this.label107);
+            this.panel6.Controls.Add(this.label98);
             this.panel6.Controls.Add(this.label11);
             this.panel6.Controls.Add(this.label10);
             this.panel6.Controls.Add(this.label8);
@@ -884,85 +1528,8 @@
             this.panel6.Controls.Add(this.label68);
             this.panel6.Location = new System.Drawing.Point(20, 20);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(320, 810);
+            this.panel6.Size = new System.Drawing.Size(320, 350);
             this.panel6.TabIndex = 0;
-            // 
-            // panel10
-            // 
-            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.panel10.Controls.Add(this.label97);
-            this.panel10.Controls.Add(this.label96);
-            this.panel10.Controls.Add(this.label95);
-            this.panel10.Controls.Add(this.label94);
-            this.panel10.Controls.Add(this.label93);
-            this.panel10.Controls.Add(this.label92);
-            this.panel10.Controls.Add(this.label91);
-            this.panel10.Controls.Add(this.label90);
-            this.panel10.Controls.Add(this.label87);
-            this.panel10.Controls.Add(this.label88);
-            this.panel10.Controls.Add(this.label89);
-            this.panel10.Controls.Add(this.label86);
-            this.panel10.Controls.Add(this.label85);
-            this.panel10.Controls.Add(this.label84);
-            this.panel10.Controls.Add(this.label83);
-            this.panel10.Controls.Add(this.label82);
-            this.panel10.Controls.Add(this.label81);
-            this.panel10.Controls.Add(this.label80);
-            this.panel10.Controls.Add(this.label79);
-            this.panel10.Controls.Add(this.label78);
-            this.panel10.Controls.Add(this.label77);
-            this.panel10.Controls.Add(this.label76);
-            this.panel10.Controls.Add(this.label75);
-            this.panel10.Controls.Add(this.label74);
-            this.panel10.Controls.Add(this.label73);
-            this.panel10.Controls.Add(this.label72);
-            this.panel10.Controls.Add(this.label71);
-            this.panel10.Controls.Add(this.label70);
-            this.panel10.Controls.Add(this.label69);
-            this.panel10.Location = new System.Drawing.Point(699, 20);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(300, 460);
-            this.panel10.TabIndex = 29;
-            this.panel10.Visible = false;
-            // 
-            // label71
-            // 
-            this.label71.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label71.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label71.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label71.ForeColor = System.Drawing.Color.Gray;
-            this.label71.Location = new System.Drawing.Point(5, 70);
-            this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(142, 25);
-            this.label71.TabIndex = 25;
-            this.label71.Text = "Dnipropetrovsk";
-            this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label70
-            // 
-            this.label70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label70.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label70.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label70.ForeColor = System.Drawing.Color.Gray;
-            this.label70.Location = new System.Drawing.Point(5, 40);
-            this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(142, 25);
-            this.label70.TabIndex = 24;
-            this.label70.Text = "Donetsk";
-            this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label69
-            // 
-            this.label69.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label69.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label69.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label69.ForeColor = System.Drawing.Color.White;
-            this.label69.Location = new System.Drawing.Point(5, 5);
-            this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(290, 30);
-            this.label69.TabIndex = 23;
-            this.label69.Text = "Any";
-            this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label11
             // 
@@ -970,7 +1537,7 @@
             this.label11.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(10, 510);
+            this.label11.Location = new System.Drawing.Point(10, 190);
             this.label11.Name = "label11";
             this.label11.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.label11.Size = new System.Drawing.Size(300, 30);
@@ -1061,7 +1628,7 @@
             this.label68.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.label68.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label68.ForeColor = System.Drawing.Color.White;
-            this.label68.Location = new System.Drawing.Point(10, 550);
+            this.label68.Location = new System.Drawing.Point(10, 230);
             this.label68.Name = "label68";
             this.label68.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.label68.Size = new System.Drawing.Size(300, 30);
@@ -1299,185 +1866,6 @@
             this.label31.MouseEnter += new System.EventHandler(this.label31_MouseEnter);
             this.label31.MouseLeave += new System.EventHandler(this.label31_MouseLeave);
             // 
-            // panel7
-            // 
-            this.panel7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.panel7.Controls.Add(this.label21);
-            this.panel7.Controls.Add(this.label20);
-            this.panel7.Controls.Add(this.label19);
-            this.panel7.Controls.Add(this.label18);
-            this.panel7.Controls.Add(this.label17);
-            this.panel7.Controls.Add(this.label16);
-            this.panel7.Controls.Add(this.label15);
-            this.panel7.Controls.Add(this.label14);
-            this.panel7.Controls.Add(this.label13);
-            this.panel7.Controls.Add(this.label12);
-            this.panel7.Location = new System.Drawing.Point(350, 20);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(103, 355);
-            this.panel7.TabIndex = 12;
-            this.panel7.Visible = false;
-            // 
-            // label21
-            // 
-            this.label21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label21.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label21.ForeColor = System.Drawing.Color.Gray;
-            this.label21.Location = new System.Drawing.Point(5, 320);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(93, 30);
-            this.label21.TabIndex = 22;
-            this.label21.Text = "2030";
-            this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label21.Click += new System.EventHandler(this.label21_Click);
-            this.label21.MouseEnter += new System.EventHandler(this.label21_MouseEnter);
-            this.label21.MouseLeave += new System.EventHandler(this.label21_MouseLeave);
-            // 
-            // label20
-            // 
-            this.label20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label20.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label20.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label20.ForeColor = System.Drawing.Color.Gray;
-            this.label20.Location = new System.Drawing.Point(5, 285);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(93, 30);
-            this.label20.TabIndex = 21;
-            this.label20.Text = "2029";
-            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label20.Click += new System.EventHandler(this.label20_Click);
-            this.label20.MouseEnter += new System.EventHandler(this.label20_MouseEnter);
-            this.label20.MouseLeave += new System.EventHandler(this.label20_MouseLeave);
-            // 
-            // label19
-            // 
-            this.label19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label19.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label19.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.ForeColor = System.Drawing.Color.Gray;
-            this.label19.Location = new System.Drawing.Point(5, 250);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(93, 30);
-            this.label19.TabIndex = 20;
-            this.label19.Text = "2028";
-            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label19.Click += new System.EventHandler(this.label19_Click);
-            this.label19.MouseEnter += new System.EventHandler(this.label19_MouseEnter);
-            this.label19.MouseLeave += new System.EventHandler(this.label19_MouseLeave);
-            // 
-            // label18
-            // 
-            this.label18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label18.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label18.ForeColor = System.Drawing.Color.Gray;
-            this.label18.Location = new System.Drawing.Point(5, 215);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(93, 30);
-            this.label18.TabIndex = 19;
-            this.label18.Text = "2027";
-            this.label18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label18.Click += new System.EventHandler(this.label18_Click);
-            this.label18.MouseEnter += new System.EventHandler(this.label18_MouseEnter);
-            this.label18.MouseLeave += new System.EventHandler(this.label18_MouseLeave);
-            // 
-            // label17
-            // 
-            this.label17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label17.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label17.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label17.ForeColor = System.Drawing.Color.Gray;
-            this.label17.Location = new System.Drawing.Point(5, 180);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(93, 30);
-            this.label17.TabIndex = 18;
-            this.label17.Text = "2026";
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label17.Click += new System.EventHandler(this.label17_Click);
-            this.label17.MouseEnter += new System.EventHandler(this.label17_MouseEnter);
-            this.label17.MouseLeave += new System.EventHandler(this.label17_MouseLeave);
-            // 
-            // label16
-            // 
-            this.label16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label16.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Gray;
-            this.label16.Location = new System.Drawing.Point(5, 145);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(93, 30);
-            this.label16.TabIndex = 17;
-            this.label16.Text = "2025";
-            this.label16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label16.Click += new System.EventHandler(this.label16_Click);
-            this.label16.MouseEnter += new System.EventHandler(this.label16_MouseEnter);
-            this.label16.MouseLeave += new System.EventHandler(this.label16_MouseLeave);
-            // 
-            // label15
-            // 
-            this.label15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label15.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Gray;
-            this.label15.Location = new System.Drawing.Point(5, 110);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(93, 30);
-            this.label15.TabIndex = 16;
-            this.label15.Text = "2024";
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label15.Click += new System.EventHandler(this.label15_Click);
-            this.label15.MouseEnter += new System.EventHandler(this.label15_MouseEnter);
-            this.label15.MouseLeave += new System.EventHandler(this.label15_MouseLeave);
-            // 
-            // label14
-            // 
-            this.label14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label14.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label14.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.ForeColor = System.Drawing.Color.Gray;
-            this.label14.Location = new System.Drawing.Point(5, 75);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(93, 30);
-            this.label14.TabIndex = 15;
-            this.label14.Text = "2023";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label14.Click += new System.EventHandler(this.label14_Click);
-            this.label14.MouseEnter += new System.EventHandler(this.label14_MouseEnter);
-            this.label14.MouseLeave += new System.EventHandler(this.label14_MouseLeave);
-            // 
-            // label13
-            // 
-            this.label13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label13.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label13.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Gray;
-            this.label13.Location = new System.Drawing.Point(5, 40);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(93, 30);
-            this.label13.TabIndex = 14;
-            this.label13.Text = "2022";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label13.Click += new System.EventHandler(this.label13_Click);
-            this.label13.MouseEnter += new System.EventHandler(this.label13_MouseEnter);
-            this.label13.MouseLeave += new System.EventHandler(this.label13_MouseLeave);
-            // 
-            // label12
-            // 
-            this.label12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label12.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(5, 5);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(93, 30);
-            this.label12.TabIndex = 13;
-            this.label12.Text = "Any";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label12.Click += new System.EventHandler(this.label12_Click);
-            this.label12.MouseEnter += new System.EventHandler(this.label12_MouseEnter);
-            this.label12.MouseLeave += new System.EventHandler(this.label12_MouseLeave);
-            // 
             // pictureBox2
             // 
             this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -1506,343 +1894,220 @@
             this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox1_MouseEnter);
             this.pictureBox1.MouseLeave += new System.EventHandler(this.pictureBox1_MouseLeave);
             // 
-            // label72
+            // label98
             // 
-            this.label72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label72.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label72.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label72.ForeColor = System.Drawing.Color.Gray;
-            this.label72.Location = new System.Drawing.Point(5, 100);
-            this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(142, 25);
-            this.label72.TabIndex = 26;
-            this.label72.Text = "Kyiv";
-            this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label98.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label98.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label98.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label98.ForeColor = System.Drawing.Color.Gray;
+            this.label98.Location = new System.Drawing.Point(10, 150);
+            this.label98.Name = "label98";
+            this.label98.Size = new System.Drawing.Size(300, 30);
+            this.label98.TabIndex = 29;
+            this.label98.Text = "Type";
+            this.label98.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label98.Click += new System.EventHandler(this.label98_Click);
+            this.label98.MouseEnter += new System.EventHandler(this.label98_MouseEnter);
+            this.label98.MouseLeave += new System.EventHandler(this.label98_MouseLeave);
             // 
-            // label73
+            // panel11
             // 
-            this.label73.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label73.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label73.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label73.ForeColor = System.Drawing.Color.Gray;
-            this.label73.Location = new System.Drawing.Point(5, 130);
-            this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(142, 25);
-            this.label73.TabIndex = 27;
-            this.label73.Text = "Kharkiv";
-            this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.panel11.Controls.Add(this.label106);
+            this.panel11.Controls.Add(this.label105);
+            this.panel11.Controls.Add(this.label104);
+            this.panel11.Controls.Add(this.label103);
+            this.panel11.Controls.Add(this.label102);
+            this.panel11.Controls.Add(this.label101);
+            this.panel11.Controls.Add(this.label100);
+            this.panel11.Controls.Add(this.label99);
+            this.panel11.Controls.Add(this.label126);
+            this.panel11.Controls.Add(this.label127);
+            this.panel11.Location = new System.Drawing.Point(350, 490);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(210, 310);
+            this.panel11.TabIndex = 52;
+            this.panel11.Visible = false;
             // 
-            // label74
+            // label126
             // 
-            this.label74.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label74.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label74.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label74.ForeColor = System.Drawing.Color.Gray;
-            this.label74.Location = new System.Drawing.Point(5, 160);
-            this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(142, 25);
-            this.label74.TabIndex = 28;
-            this.label74.Text = "Lviv";
-            this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label126.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label126.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label126.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label126.ForeColor = System.Drawing.Color.Gray;
+            this.label126.Location = new System.Drawing.Point(5, 40);
+            this.label126.Name = "label126";
+            this.label126.Size = new System.Drawing.Size(200, 25);
+            this.label126.TabIndex = 24;
+            this.label126.Text = "Russian losses";
+            this.label126.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label126.MouseEnter += new System.EventHandler(this.label126_MouseEnter);
             // 
-            // label75
+            // label127
             // 
-            this.label75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label75.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label75.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label75.ForeColor = System.Drawing.Color.Gray;
-            this.label75.Location = new System.Drawing.Point(5, 190);
-            this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(142, 25);
-            this.label75.TabIndex = 29;
-            this.label75.Text = "Odessa";
-            this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label127.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label127.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label127.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label127.ForeColor = System.Drawing.Color.White;
+            this.label127.Location = new System.Drawing.Point(5, 5);
+            this.label127.Name = "label127";
+            this.label127.Size = new System.Drawing.Size(200, 30);
+            this.label127.TabIndex = 23;
+            this.label127.Text = "Any";
+            this.label127.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label127.MouseEnter += new System.EventHandler(this.label127_MouseEnter);
             // 
-            // label76
+            // label99
             // 
-            this.label76.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label76.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label76.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label76.ForeColor = System.Drawing.Color.Gray;
-            this.label76.Location = new System.Drawing.Point(5, 220);
-            this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(142, 25);
-            this.label76.TabIndex = 30;
-            this.label76.Text = "Luhansk";
-            this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label99.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label99.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label99.ForeColor = System.Drawing.Color.Gray;
+            this.label99.Location = new System.Drawing.Point(5, 70);
+            this.label99.Name = "label99";
+            this.label99.Size = new System.Drawing.Size(200, 25);
+            this.label99.TabIndex = 25;
+            this.label99.Text = "Russian forces";
+            this.label99.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label99.MouseEnter += new System.EventHandler(this.label99_MouseEnter);
             // 
-            // label77
+            // label100
             // 
-            this.label77.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label77.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label77.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label77.ForeColor = System.Drawing.Color.Gray;
-            this.label77.Location = new System.Drawing.Point(5, 250);
-            this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(142, 25);
-            this.label77.TabIndex = 31;
-            this.label77.Text = "Crimea";
-            this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label100.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label100.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label100.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label100.ForeColor = System.Drawing.Color.Gray;
+            this.label100.Location = new System.Drawing.Point(5, 100);
+            this.label100.Name = "label100";
+            this.label100.Size = new System.Drawing.Size(200, 25);
+            this.label100.TabIndex = 26;
+            this.label100.Text = "Ukrainian losses";
+            this.label100.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label100.MouseEnter += new System.EventHandler(this.label100_MouseEnter);
             // 
-            // label78
+            // label101
             // 
-            this.label78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label78.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label78.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label78.ForeColor = System.Drawing.Color.Gray;
-            this.label78.Location = new System.Drawing.Point(5, 280);
-            this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(142, 25);
-            this.label78.TabIndex = 32;
-            this.label78.Text = "Zaporizhzhia";
-            this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label101.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label101.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label101.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label101.ForeColor = System.Drawing.Color.Gray;
+            this.label101.Location = new System.Drawing.Point(5, 130);
+            this.label101.Name = "label101";
+            this.label101.Size = new System.Drawing.Size(200, 25);
+            this.label101.TabIndex = 27;
+            this.label101.Text = "Ukrainian forces";
+            this.label101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label101.MouseEnter += new System.EventHandler(this.label101_MouseEnter);
             // 
-            // label79
+            // label102
             // 
-            this.label79.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label79.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label79.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label79.ForeColor = System.Drawing.Color.Gray;
-            this.label79.Location = new System.Drawing.Point(5, 310);
-            this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(142, 25);
-            this.label79.TabIndex = 33;
-            this.label79.Text = "Vinnytsia";
-            this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label102.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label102.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label102.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label102.ForeColor = System.Drawing.Color.Gray;
+            this.label102.Location = new System.Drawing.Point(5, 160);
+            this.label102.Name = "label102";
+            this.label102.Size = new System.Drawing.Size(200, 25);
+            this.label102.TabIndex = 28;
+            this.label102.Text = "Civilian losses";
+            this.label102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label102.MouseEnter += new System.EventHandler(this.label102_MouseEnter);
             // 
-            // label80
+            // label103
             // 
-            this.label80.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label80.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label80.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label80.ForeColor = System.Drawing.Color.Gray;
-            this.label80.Location = new System.Drawing.Point(152, 40);
-            this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(143, 25);
-            this.label80.TabIndex = 34;
-            this.label80.Text = "Poltava";
-            this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label103.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label103.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label103.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label103.ForeColor = System.Drawing.Color.Gray;
+            this.label103.Location = new System.Drawing.Point(5, 190);
+            this.label103.Name = "label103";
+            this.label103.Size = new System.Drawing.Size(200, 25);
+            this.label103.TabIndex = 29;
+            this.label103.Text = "Aftermath footage";
+            this.label103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label103.MouseEnter += new System.EventHandler(this.label103_MouseEnter);
             // 
-            // label81
+            // label104
             // 
-            this.label81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label81.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label81.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label81.ForeColor = System.Drawing.Color.Gray;
-            this.label81.Location = new System.Drawing.Point(152, 70);
-            this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(143, 25);
-            this.label81.TabIndex = 35;
-            this.label81.Text = "Ivano-Frankivsk";
-            this.label81.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label104.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label104.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label104.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label104.ForeColor = System.Drawing.Color.Gray;
+            this.label104.Location = new System.Drawing.Point(5, 220);
+            this.label104.Name = "label104";
+            this.label104.Size = new System.Drawing.Size(200, 25);
+            this.label104.TabIndex = 30;
+            this.label104.Text = "Warcrimes";
+            this.label104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label104.MouseEnter += new System.EventHandler(this.label104_MouseEnter);
             // 
-            // label82
+            // label105
             // 
-            this.label82.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label82.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label82.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label82.ForeColor = System.Drawing.Color.Gray;
-            this.label82.Location = new System.Drawing.Point(152, 100);
-            this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(143, 25);
-            this.label82.TabIndex = 36;
-            this.label82.Text = "Khmelnytskyi";
-            this.label82.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label105.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label105.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label105.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label105.ForeColor = System.Drawing.Color.Gray;
+            this.label105.Location = new System.Drawing.Point(5, 250);
+            this.label105.Name = "label105";
+            this.label105.Size = new System.Drawing.Size(200, 25);
+            this.label105.TabIndex = 31;
+            this.label105.Text = "Misc. footage";
+            this.label105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label105.MouseEnter += new System.EventHandler(this.label105_MouseEnter);
             // 
-            // label83
+            // label106
             // 
-            this.label83.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label83.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label83.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label83.ForeColor = System.Drawing.Color.Gray;
-            this.label83.Location = new System.Drawing.Point(152, 130);
-            this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(143, 25);
-            this.label83.TabIndex = 37;
-            this.label83.Text = "Zakarpattia";
-            this.label83.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label106.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label106.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label106.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label106.ForeColor = System.Drawing.Color.Gray;
+            this.label106.Location = new System.Drawing.Point(5, 280);
+            this.label106.Name = "label106";
+            this.label106.Size = new System.Drawing.Size(200, 25);
+            this.label106.TabIndex = 32;
+            this.label106.Text = "Combat footage";
+            this.label106.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label106.MouseEnter += new System.EventHandler(this.label106_MouseEnter);
             // 
-            // label84
+            // label107
             // 
-            this.label84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label84.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label84.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label84.ForeColor = System.Drawing.Color.Gray;
-            this.label84.Location = new System.Drawing.Point(152, 160);
-            this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(143, 25);
-            this.label84.TabIndex = 38;
-            this.label84.Text = "Zhytomyr";
-            this.label84.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label107.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label107.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.label107.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label107.ForeColor = System.Drawing.Color.White;
+            this.label107.Location = new System.Drawing.Point(10, 270);
+            this.label107.Name = "label107";
+            this.label107.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.label107.Size = new System.Drawing.Size(300, 30);
+            this.label107.TabIndex = 30;
+            this.label107.Text = "Type: Any";
+            this.label107.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // label85
+            // label108
             // 
-            this.label85.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label85.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label85.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label85.ForeColor = System.Drawing.Color.Gray;
-            this.label85.Location = new System.Drawing.Point(152, 190);
-            this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(143, 25);
-            this.label85.TabIndex = 39;
-            this.label85.Text = "Cherkasy";
-            this.label85.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label108.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label108.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label108.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label108.ForeColor = System.Drawing.Color.Gray;
+            this.label108.Location = new System.Drawing.Point(10, 310);
+            this.label108.Name = "label108";
+            this.label108.Size = new System.Drawing.Size(145, 30);
+            this.label108.TabIndex = 31;
+            this.label108.Text = "Apply";
+            this.label108.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label86
+            // label109
             // 
-            this.label86.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label86.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label86.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label86.ForeColor = System.Drawing.Color.Gray;
-            this.label86.Location = new System.Drawing.Point(152, 220);
-            this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(143, 25);
-            this.label86.TabIndex = 40;
-            this.label86.Text = "Rivne";
-            this.label86.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label87
-            // 
-            this.label87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label87.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label87.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label87.ForeColor = System.Drawing.Color.Gray;
-            this.label87.Location = new System.Drawing.Point(152, 310);
-            this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(143, 25);
-            this.label87.TabIndex = 43;
-            this.label87.Text = "Ternopil";
-            this.label87.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label88
-            // 
-            this.label88.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label88.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label88.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label88.ForeColor = System.Drawing.Color.Gray;
-            this.label88.Location = new System.Drawing.Point(152, 280);
-            this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(143, 25);
-            this.label88.TabIndex = 42;
-            this.label88.Text = "Sumy";
-            this.label88.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label89
-            // 
-            this.label89.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label89.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label89.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label89.ForeColor = System.Drawing.Color.Gray;
-            this.label89.Location = new System.Drawing.Point(152, 250);
-            this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(143, 25);
-            this.label89.TabIndex = 41;
-            this.label89.Text = "Mykolaiv";
-            this.label89.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label90
-            // 
-            this.label90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label90.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label90.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label90.ForeColor = System.Drawing.Color.Gray;
-            this.label90.Location = new System.Drawing.Point(5, 340);
-            this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(142, 25);
-            this.label90.TabIndex = 44;
-            this.label90.Text = "Kherson";
-            this.label90.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label91
-            // 
-            this.label91.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label91.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label91.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label91.ForeColor = System.Drawing.Color.Gray;
-            this.label91.Location = new System.Drawing.Point(152, 340);
-            this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(142, 25);
-            this.label91.TabIndex = 45;
-            this.label91.Text = "Chernihiv";
-            this.label91.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label92
-            // 
-            this.label92.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label92.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label92.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label92.ForeColor = System.Drawing.Color.Gray;
-            this.label92.Location = new System.Drawing.Point(5, 370);
-            this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(142, 25);
-            this.label92.TabIndex = 46;
-            this.label92.Text = "Volyn";
-            this.label92.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label93
-            // 
-            this.label93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label93.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label93.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label93.ForeColor = System.Drawing.Color.Gray;
-            this.label93.Location = new System.Drawing.Point(152, 370);
-            this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(142, 25);
-            this.label93.TabIndex = 47;
-            this.label93.Text = "Kirovohrad";
-            this.label93.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label94
-            // 
-            this.label94.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label94.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label94.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label94.ForeColor = System.Drawing.Color.Gray;
-            this.label94.Location = new System.Drawing.Point(5, 400);
-            this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(142, 25);
-            this.label94.TabIndex = 48;
-            this.label94.Text = "Chernivtsi";
-            this.label94.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label95
-            // 
-            this.label95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label95.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label95.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label95.ForeColor = System.Drawing.Color.Gray;
-            this.label95.Location = new System.Drawing.Point(152, 400);
-            this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(142, 25);
-            this.label95.TabIndex = 49;
-            this.label95.Text = "Sevastopol";
-            this.label95.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label96
-            // 
-            this.label96.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label96.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label96.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label96.ForeColor = System.Drawing.Color.Gray;
-            this.label96.Location = new System.Drawing.Point(5, 430);
-            this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(142, 25);
-            this.label96.TabIndex = 50;
-            this.label96.Text = "Russia";
-            this.label96.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label97
-            // 
-            this.label97.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.label97.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.label97.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label97.ForeColor = System.Drawing.Color.Gray;
-            this.label97.Location = new System.Drawing.Point(152, 430);
-            this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(142, 25);
-            this.label97.TabIndex = 51;
-            this.label97.Text = "Unknown location";
-            this.label97.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label109.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.label109.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.label109.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label109.ForeColor = System.Drawing.Color.Gray;
+            this.label109.Location = new System.Drawing.Point(165, 310);
+            this.label109.Name = "label109";
+            this.label109.Size = new System.Drawing.Size(145, 30);
+            this.label109.TabIndex = 32;
+            this.label109.Text = "Reset";
+            this.label109.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Form1
             // 
@@ -1854,8 +2119,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -1868,13 +2133,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
             this.panel9.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.panel10.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
-            this.panel7.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel11.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1993,6 +2259,21 @@
         private System.Windows.Forms.Label label74;
         private System.Windows.Forms.Label label73;
         private System.Windows.Forms.Label label72;
+        private System.Windows.Forms.Panel panel11;
+        private System.Windows.Forms.Label label106;
+        private System.Windows.Forms.Label label105;
+        private System.Windows.Forms.Label label104;
+        private System.Windows.Forms.Label label103;
+        private System.Windows.Forms.Label label102;
+        private System.Windows.Forms.Label label101;
+        private System.Windows.Forms.Label label100;
+        private System.Windows.Forms.Label label99;
+        private System.Windows.Forms.Label label126;
+        private System.Windows.Forms.Label label127;
+        private System.Windows.Forms.Label label98;
+        private System.Windows.Forms.Label label107;
+        private System.Windows.Forms.Label label109;
+        private System.Windows.Forms.Label label108;
     }
 }
 
