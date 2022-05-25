@@ -18,11 +18,17 @@ namespace MUWA
         //data
         bool fadeInOrOut = false;
         int mainmenub = 1;
+        int i = 0;
 
         string year = "xxxx";
         string month = "xx";
         string day = "xx";
+        string location = "Any";
+        string type = "Any";
 
+        string date = "";
+
+        string[] linenrs = new string[1000];
         [DllImport("Gdi32.dll", EntryPoint = "CreateRoundRectRgn")]
         private static extern IntPtr CreateRoundRectRgn
         (
@@ -48,7 +54,9 @@ namespace MUWA
             roundedCorners(label7, 20);
             roundedCorners(panel5, 40);
             roundedCorners(webBrowser1, 20);
+            roundedCorners(webBrowser2, 20);
             roundedCorners(panel6, 40);
+            roundedCorners(dataGridView1, 40);
             roundedCorners(panel7, 10);
             roundedCorners(panel10, 10);
             roundedCorners(panel11, 10);
@@ -77,16 +85,51 @@ namespace MUWA
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            applicationFade.Start();
             FileDownloader fd = new FileDownloader();
             fd.DownloadFileAsync("https://drive.google.com/file/d/14o452mLGhshdSb5PP2tiOlXIgfYziCFk/view?usp=sharing", @"C:\Temp\muwaIOTD.txt");
+            fd.DownloadFileCompleted += (sender1, e1) => applicationFade.Start();
             fd.Dispose();
+
+            applicationFade.Start();
+
             foreachctrl(panel10, 10);
             foreachctrl(panel7, 10);
             foreachctrl(panel8, 10);
             foreachctrl(panel9, 10);
             foreachctrl(panel11, 10);
             foreachctrl(panel6, 10);
+
+            dataGridView1.ColumnCount = 4;
+            dataGridView1.Columns[0].Name = "Date";
+            dataGridView1.Columns[1].Name = "Type";
+            dataGridView1.Columns[2].Name = "Title";
+            dataGridView1.Columns[3].Name = "Location";
+
+            FileDownloader fd6 = new FileDownloader();
+            FileDownloader fd3 = new FileDownloader();
+            FileDownloader fd4 = new FileDownloader();
+            FileDownloader fd5 = new FileDownloader();
+            FileDownloader fd7 = new FileDownloader();
+
+            fd6.DownloadFileAsync("https://drive.google.com/file/d/10KkARXjcluugBz8ngC2csjlJARMFN9A3/view?usp=sharing", @"C:\Temp\muwaDATE.txt");
+            fd6.DownloadFileCompleted += (sender1, e1) => i += 1;
+            fd6.Dispose();
+
+            fd7.DownloadFileAsync("https://drive.google.com/file/d/194i8Af_IXf4YUrtnFCrqDUIpyMXR1qw7/view?usp=sharing", @"C:\Temp\muwaLINK.txt");
+            fd7.DownloadFileCompleted += (sender1, e1) => i += 1;
+            fd7.Dispose();
+
+            fd3.DownloadFileAsync("https://drive.google.com/file/d/1COi0bakKqacnkVLk5XkWuqm6PdlAscYg/view?usp=sharing", @"C:\Temp\muwaTYPE.txt");
+            fd3.DownloadFileCompleted += (sender1, e1) => i += 1;
+            fd3.Dispose();
+
+            fd4.DownloadFileAsync("https://drive.google.com/file/d/1CVOY7hhprNV3TtjoVQdupIIxgAFLOSzR/view?usp=sharing", @"C:\Temp\muwaTITLE.txt");
+            fd4.DownloadFileCompleted += (sender1, e1) => i += 1;
+            fd4.Dispose();
+
+            fd5.DownloadFileAsync("https://drive.google.com/file/d/1_ofDyZ-nxxDMaBgJu-NrSN6Uj08-PSNt/view?usp=sharing", @"C:\Temp\muwaLOC.txt");
+            fd5.DownloadFileCompleted += (sender1, e1) => i += 1;
+            fd5.Dispose();
         }
 
         void foreachctrl(Control c1, int x)
@@ -122,7 +165,7 @@ namespace MUWA
                     }
                     break;
                 case false:
-                    this.Opacity += 0.005;
+                    this.Opacity += 0.02;
                     if(this.Opacity == 1)
                     {
                         string[] IOTD = File.ReadAllLines(@"C:\Temp\muwaIOTD.txt");
@@ -274,6 +317,8 @@ namespace MUWA
         private void label12_Click(object sender, EventArgs e)
         {
             year = "xxxx";
+            month = "xx";
+            day = "xx";
             changedatelabel();
             label12.ForeColor = Color.White;
         }
@@ -551,7 +596,9 @@ namespace MUWA
         }
         private void label31_Click(object sender, EventArgs e)
         {
+            year = "xxxx";
             month = "xx";
+            day = "xx";
             changedatelabel1();
             label31.ForeColor = Color.White;
         }
@@ -738,6 +785,8 @@ namespace MUWA
         }
         private void label47_Click(object sender, EventArgs e)
         {
+            year = "xxxx";
+            month = "xx";
             day = "xx";
             changedatelabel2();
             label47.ForeColor = Color.White;
@@ -1444,6 +1493,598 @@ namespace MUWA
         private void label106_MouseEnter(object sender, EventArgs e)
         {
             label106.ForeColor = Color.White;
+        }
+
+        private void label70_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Donetsk", label70);
+        }
+
+        private void label69_Click(object sender, EventArgs e)
+        {
+            location = "Any";
+            changeloclabel();
+            label69.ForeColor = Color.White;
+        }
+        
+        void changeloclabel()
+        {
+            label68.Text = "Location: " + location;
+            foreach (Label l in panel10.Controls.OfType<Label>())
+            {
+                l.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label70_Click(object sender, EventArgs e)
+        {
+            location = "Donetsk";
+            changeloclabel();
+            label70.ForeColor = Color.White;
+        }
+
+        private void label71_Click(object sender, EventArgs e)
+        {
+            location = "Dnipropetrovsk";
+            changeloclabel();
+            label71.ForeColor = Color.White;
+        }
+
+        private void label72_Click(object sender, EventArgs e)
+        {
+            location = "Kyiv";
+            changeloclabel();
+            label72.ForeColor = Color.White;
+        }
+
+        private void label73_Click(object sender, EventArgs e)
+        {
+            location = "Kharkiv";
+            changeloclabel();
+            label73.ForeColor = Color.White;
+        }
+
+        private void label74_Click(object sender, EventArgs e)
+        {
+            location = "Lviv";
+            changeloclabel();
+            label74.ForeColor = Color.White;
+        }
+
+        private void label75_Click(object sender, EventArgs e)
+        {
+            location = "Odessa";
+            changeloclabel();
+            label75.ForeColor = Color.White;
+        }
+
+        private void label76_Click(object sender, EventArgs e)
+        {
+            location = "Luhansk";
+            changeloclabel();
+            label76.ForeColor = Color.White;
+        }
+
+        private void label77_Click(object sender, EventArgs e)
+        {
+            location = "Crimea";
+            changeloclabel();
+            label77.ForeColor = Color.White;
+        }
+
+        private void label78_Click(object sender, EventArgs e)
+        {
+            location = "Zaporizhzhia";
+            changeloclabel();
+            label78.ForeColor = Color.White;
+        }
+
+        private void label79_Click(object sender, EventArgs e)
+        {
+            location = "Vinnytsia";
+            changeloclabel();
+            label79.ForeColor = Color.White;
+        }
+
+        private void label90_Click(object sender, EventArgs e)
+        {
+            location = "Kherson";
+            changeloclabel();
+            label90.ForeColor = Color.White;
+        }
+
+        private void label92_Click(object sender, EventArgs e)
+        {
+            location = "Volyn";
+            changeloclabel();
+            label92.ForeColor = Color.White;
+        }
+
+        private void label94_Click(object sender, EventArgs e)
+        {
+            location = "Chernivtsi";
+            changeloclabel();
+            label94.ForeColor = Color.White;
+        }
+
+        private void label96_Click(object sender, EventArgs e)
+        {
+            location = "Russia";
+            changeloclabel();
+            label96.ForeColor = Color.White;
+        }
+
+        private void label80_Click(object sender, EventArgs e)
+        {
+            location = "Poltava";
+            changeloclabel();
+            label80.ForeColor = Color.White;
+        }
+
+        private void label81_Click(object sender, EventArgs e)
+        {
+            location = "Ivano-Frankivsk";
+            changeloclabel();
+            label81.ForeColor = Color.White;
+        }
+
+        private void label82_Click(object sender, EventArgs e)
+        {
+            location = "Khmelnytskyi";
+            changeloclabel();
+            label82.ForeColor = Color.White;
+        }
+
+        private void label83_Click(object sender, EventArgs e)
+        {
+            location = "Zakarpattia";
+            changeloclabel();
+            label83.ForeColor = Color.White;
+        }
+
+        private void label84_Click(object sender, EventArgs e)
+        {
+            location = "Zhytomyr";
+            changeloclabel();
+            label84.ForeColor = Color.White;
+        }
+
+        private void label85_Click(object sender, EventArgs e)
+        {
+            location = "Cherkasy";
+            changeloclabel();
+            label85.ForeColor = Color.White;
+        }
+
+        private void label86_Click(object sender, EventArgs e)
+        {
+            location = "Rivne";
+            changeloclabel();
+            label86.ForeColor = Color.White;
+        }
+
+        private void label89_Click(object sender, EventArgs e)
+        {
+            location = "Mykolaiv";
+            changeloclabel();
+            label89.ForeColor = Color.White;
+        }
+
+        private void label88_Click(object sender, EventArgs e)
+        {
+            location = "Sumy";
+            changeloclabel();
+            label88.ForeColor = Color.White;
+        }
+
+        private void label87_Click(object sender, EventArgs e)
+        {
+            location = "Ternopil";
+            changeloclabel();
+            label87.ForeColor = Color.White;
+        }
+
+        private void label91_Click(object sender, EventArgs e)
+        {
+            location = "Chernihiv";
+            changeloclabel();
+            label91.ForeColor = Color.White;
+        }
+
+        private void label93_Click(object sender, EventArgs e)
+        {
+            location = "Kirovohrad";
+            changeloclabel();
+            label93.ForeColor = Color.White;
+        }
+
+        private void label95_Click(object sender, EventArgs e)
+        {
+            location = "Sevastopol";
+            changeloclabel();
+            label95.ForeColor = Color.White;
+        }
+
+        private void label97_Click(object sender, EventArgs e)
+        {
+            location = "Unknown location";
+            changeloclabel();
+            label97.ForeColor = Color.White;
+        }
+
+        private void label69_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Any", label69);
+        }
+
+        void checkloc(string d, Control c)
+        {
+            if (location == d)
+            {
+                c.ForeColor = Color.White;
+            }
+            else
+            {
+                c.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label71_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Dnipropetrovsk", label71);
+        }
+
+        private void label72_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Kyiv", label72);
+        }
+
+        private void label80_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Poltava", label80);
+        }
+
+        private void label81_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Ivano-Frankivsk", label81);
+        }
+
+        private void label82_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Khmelnytskyi", label82);
+        }
+
+        private void label73_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Kharkiv", label73);
+        }
+
+        private void label83_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Zakarpattia", label83);
+        }
+
+        private void label74_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Lviv", label74);
+        }
+
+        private void label84_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Zhytomyr", label84);
+        }
+
+        private void label75_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Odessa", label75);
+        }
+
+        private void label85_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Cherkasy", label85);
+        }
+
+        private void label76_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Luhansk", label76);
+        }
+
+        private void label86_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Rivne", label86);
+        }
+
+        private void label77_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Crimea", label77);
+        }
+
+        private void label89_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Mykolaiv", label89);
+        }
+
+        private void label78_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Zaporizhzhia", label78);
+        }
+
+        private void label88_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Sumy", label88);
+        }
+
+        private void label79_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Vinnytsia", label79);
+        }
+
+        private void label87_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Ternopil", label87);
+        }
+
+        private void label90_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Kherson", label90);
+        }
+
+        private void label91_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Chernihiv", label91);
+        }
+
+        private void label92_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Volyn", label92);
+        }
+
+        private void label93_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Kirovohrad", label93);
+        }
+
+        private void label94_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Chernivtsi", label94);
+        }
+
+        private void label95_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Sevastopol", label95);
+        }
+
+        private void label96_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Russia", label96);
+        }
+
+        private void label97_MouseLeave(object sender, EventArgs e)
+        {
+            checkloc("Unknown location", label97);
+        }
+
+        private void label127_Click(object sender, EventArgs e)
+        {
+            type = "Any";
+            changetypelabel();
+            label127.ForeColor = Color.White;
+        }
+
+        void checktype(string d, Control c)
+        {
+            if (type == d)
+            {
+                c.ForeColor = Color.White;
+            }
+            else
+            {
+                c.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label126_Click(object sender, EventArgs e)
+        {
+            type = "Russian losses";
+            changetypelabel();
+            label126.ForeColor = Color.White;
+        }
+
+        void changetypelabel()
+        {
+            label107.Text = "Type: " + type;
+            foreach (Label l in panel11.Controls.OfType<Label>())
+            {
+                l.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label99_Click(object sender, EventArgs e)
+        {
+            type = "Russian forces";
+            changetypelabel();
+            label99.ForeColor = Color.White;
+        }
+
+        private void label100_Click(object sender, EventArgs e)
+        {
+            type = "Ukrainian losses";
+            changetypelabel();
+            label100.ForeColor = Color.White;
+        }
+
+        private void label101_Click(object sender, EventArgs e)
+        {
+            type = "Ukrainian forces";
+            changetypelabel();
+            label101.ForeColor = Color.White;
+        }
+
+        private void label102_Click(object sender, EventArgs e)
+        {
+            type = "Civilian losses";
+            changetypelabel();
+            label102.ForeColor = Color.White;
+        }
+
+        private void label103_Click(object sender, EventArgs e)
+        {
+            type = "Aftermath footage";
+            changetypelabel();
+            label103.ForeColor = Color.White;
+        }
+
+        private void label104_Click(object sender, EventArgs e)
+        {
+            type = "Warcrimes";
+            changetypelabel();
+            label104.ForeColor = Color.White;
+        }
+
+        private void label105_Click(object sender, EventArgs e)
+        {
+            type = "Misc. footage";
+            changetypelabel();
+            label105.ForeColor = Color.White;
+        }
+
+        private void label106_Click(object sender, EventArgs e)
+        {
+            type = "Combat footage";
+            changetypelabel();
+            label106.ForeColor = Color.White;
+        }
+
+        private void label127_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Any", label127);
+        }
+
+        void checktypelabel(string d, Control c)
+        {
+            if (type == d)
+            {
+                c.ForeColor = Color.White;
+            }
+            else
+            {
+                c.ForeColor = Color.Gray;
+            }
+        }
+
+        private void label126_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Russian losses", label126);
+        }
+
+        private void label99_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Russian forces", label99);
+        }
+
+        private void label100_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Ukrainian losses", label100);
+        }
+
+        private void label101_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Ukrainian forces", label101);
+        }
+
+        private void label102_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Civilian losses", label102);
+        }
+
+        private void label103_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Aftermath footage", label103);
+        }
+
+        private void label104_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Warcrimes", label104);
+        }
+
+        private void label105_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Misc. footage", label105);
+        }
+
+        private void label106_MouseLeave(object sender, EventArgs e)
+        {
+            checktypelabel("Combat footage", label106);
+        }
+
+        private void label108_MouseEnter(object sender, EventArgs e)
+        {
+            label108.ForeColor = Color.White;
+        }
+
+        private void label108_MouseLeave(object sender, EventArgs e)
+        {
+            label108.ForeColor = Color.Gray;
+        }
+
+        private void label109_MouseEnter(object sender, EventArgs e)
+        {
+            label109.ForeColor = Color.White;
+        }
+
+        private void label109_MouseLeave(object sender, EventArgs e)
+        {
+            label109.ForeColor = Color.Gray;
+        }
+
+        private void label108_Click(object sender, EventArgs e)
+        {
+            date = year + "." + month + "." + day;
+
+            dataGridView1.Rows.Clear();
+            dataGridView1.Refresh();
+            if(i == 5)
+            {
+                updatedatagrid();
+            }
+        }
+
+        void updatedatagrid()
+        {
+            string[] muwaDATE = File.ReadAllLines(@"C:\Temp\muwaDATE.txt");
+            string[] muwaTYPE = File.ReadAllLines(@"C:\Temp\muwaTYPE.txt");
+            string[] muwaTITLE = File.ReadAllLines(@"C:\Temp\muwaTITLE.txt");
+            string[] muwaLOC = File.ReadAllLines(@"C:\Temp\muwaLOC.txt");
+
+            for (int i = muwaDATE.Length; i > 0; i--)
+            {
+                string[] row =
+                {
+                    muwaDATE[i - 1],
+                    muwaTYPE[i - 1],
+                    muwaTITLE[i - 1],
+                    muwaLOC[i - 1]
+                };
+
+                if(row[0] == date || date == "xxxx.xx.xx")
+                {
+                    if(row[1] == type || type == "Any")
+                    {
+                        if(row[3] == location || location == "Any")
+                        {
+                            dataGridView1.Rows.Add(row);
+                        }
+                    }
+                }
+            }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            string[] muwaLINK = File.ReadAllLines(@"C:\Temp\muwaLINK.txt");
+
+            System.Uri uri2 = new System.Uri(muwaLINK[e.RowIndex + 1]);
+            webBrowser2.Url = uri2;
         }
     }
 }
