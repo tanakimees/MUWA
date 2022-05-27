@@ -57,11 +57,13 @@ namespace MUWA
             roundedCorners(webBrowser2, 20);
             roundedCorners(panel6, 40);
             roundedCorners(dataGridView1, 40);
+            roundedCorners(panel12, 20);
             roundedCorners(panel7, 10);
             roundedCorners(panel10, 10);
             roundedCorners(panel11, 10);
             roundedCorners(panel8, 10);
             roundedCorners(panel9, 10);
+            roundedCorners(label110, 10);
         }
 
         void roundedCorners(Control c, int x)
@@ -87,10 +89,8 @@ namespace MUWA
         {
             FileDownloader fd = new FileDownloader();
             fd.DownloadFileAsync("https://drive.google.com/file/d/14o452mLGhshdSb5PP2tiOlXIgfYziCFk/view?usp=sharing", @"C:\Temp\muwaIOTD.txt");
-            fd.DownloadFileCompleted += (sender1, e1) => applicationFade.Start();
+            fd.DownloadFileCompleted += (sender1, ee) => applicationFade.Start();
             fd.Dispose();
-
-            applicationFade.Start();
 
             foreachctrl(panel10, 10);
             foreachctrl(panel7, 10);
@@ -99,37 +99,17 @@ namespace MUWA
             foreachctrl(panel11, 10);
             foreachctrl(panel6, 10);
 
-            dataGridView1.ColumnCount = 4;
+            dataGridView1.ColumnCount = 5;
             dataGridView1.Columns[0].Name = "Date";
             dataGridView1.Columns[1].Name = "Type";
             dataGridView1.Columns[2].Name = "Title";
             dataGridView1.Columns[3].Name = "Location";
+            dataGridView1.Columns[4].Name = "Data";
 
-            FileDownloader fd6 = new FileDownloader();
-            FileDownloader fd3 = new FileDownloader();
-            FileDownloader fd4 = new FileDownloader();
-            FileDownloader fd5 = new FileDownloader();
-            FileDownloader fd7 = new FileDownloader();
-
-            fd6.DownloadFileAsync("https://drive.google.com/file/d/10KkARXjcluugBz8ngC2csjlJARMFN9A3/view?usp=sharing", @"C:\Temp\muwaDATE.txt");
-            fd6.DownloadFileCompleted += (sender1, e1) => i += 1;
-            fd6.Dispose();
-
-            fd7.DownloadFileAsync("https://drive.google.com/file/d/194i8Af_IXf4YUrtnFCrqDUIpyMXR1qw7/view?usp=sharing", @"C:\Temp\muwaLINK.txt");
-            fd7.DownloadFileCompleted += (sender1, e1) => i += 1;
-            fd7.Dispose();
-
-            fd3.DownloadFileAsync("https://drive.google.com/file/d/1COi0bakKqacnkVLk5XkWuqm6PdlAscYg/view?usp=sharing", @"C:\Temp\muwaTYPE.txt");
-            fd3.DownloadFileCompleted += (sender1, e1) => i += 1;
-            fd3.Dispose();
-
-            fd4.DownloadFileAsync("https://drive.google.com/file/d/1CVOY7hhprNV3TtjoVQdupIIxgAFLOSzR/view?usp=sharing", @"C:\Temp\muwaTITLE.txt");
-            fd4.DownloadFileCompleted += (sender1, e1) => i += 1;
-            fd4.Dispose();
-
-            fd5.DownloadFileAsync("https://drive.google.com/file/d/1_ofDyZ-nxxDMaBgJu-NrSN6Uj08-PSNt/view?usp=sharing", @"C:\Temp\muwaLOC.txt");
-            fd5.DownloadFileCompleted += (sender1, e1) => i += 1;
-            fd5.Dispose();
+            FileDownloader fd8 = new FileDownloader();
+            fd8.DownloadFileAsync("https://drive.google.com/file/d/1idUtAsyIfvxw0DHZrYlYSNh1px17p7o0/view?usp=sharing", @"C:\Temp\muwaDATA.txt");
+            fd8.DownloadFileCompleted += (sender1, e1) => i += 1;
+            fd8.Dispose();
         }
 
         void foreachctrl(Control c1, int x)
@@ -2027,23 +2007,13 @@ namespace MUWA
             label108.ForeColor = Color.Gray;
         }
 
-        private void label109_MouseEnter(object sender, EventArgs e)
-        {
-            label109.ForeColor = Color.White;
-        }
-
-        private void label109_MouseLeave(object sender, EventArgs e)
-        {
-            label109.ForeColor = Color.Gray;
-        }
-
         private void label108_Click(object sender, EventArgs e)
         {
             date = year + "." + month + "." + day;
 
             dataGridView1.Rows.Clear();
             dataGridView1.Refresh();
-            if(i == 5)
+            if(i == 1)
             {
                 updatedatagrid();
             }
@@ -2051,39 +2021,39 @@ namespace MUWA
 
         void updatedatagrid()
         {
-            string[] muwaDATE = File.ReadAllLines(@"C:\Temp\muwaDATE.txt");
-            string[] muwaTYPE = File.ReadAllLines(@"C:\Temp\muwaTYPE.txt");
-            string[] muwaTITLE = File.ReadAllLines(@"C:\Temp\muwaTITLE.txt");
-            string[] muwaLOC = File.ReadAllLines(@"C:\Temp\muwaLOC.txt");
+            string[] muwaDATA = File.ReadAllLines(@"C:\Temp\muwaDATA.txt");
 
-            for (int i = muwaDATE.Length; i > 0; i--)
+            for(int i = muwaDATA.Length; i > 0; i--)
             {
+                string[] row1 = muwaDATA[i - 1].Split('|');
                 string[] row =
                 {
-                    muwaDATE[i - 1],
-                    muwaTYPE[i - 1],
-                    muwaTITLE[i - 1],
-                    muwaLOC[i - 1]
+                    row1[0],
+                    row1[1],
+                    row1[3],
+                    row1[2],
+                    row1[4]
                 };
-
-                if(row[0] == date || date == "xxxx.xx.xx")
+                if (row[0] == date || date == "xxxx.xx.xx")
                 {
-                    if(row[1] == type || type == "Any")
+                    if (row[1] == type || type == "Any")
                     {
-                        if(row[3] == location || location == "Any")
+                        if (row[3] == location || location == "Any")
                         {
                             dataGridView1.Rows.Add(row);
                         }
                     }
+                }
+                if (i == 1)
+                {
+                    label110.Text = "Files found: " + Convert.ToInt32(dataGridView1.RowCount - 1).ToString();
                 }
             }
         }
 
         private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            string[] muwaLINK = File.ReadAllLines(@"C:\Temp\muwaLINK.txt");
-
-            System.Uri uri2 = new System.Uri(muwaLINK[e.RowIndex + 1]);
+            System.Uri uri2 = new System.Uri(dataGridView1.Rows[e.RowIndex].Cells[4].Value.ToString());
             webBrowser2.Url = uri2;
         }
     }
