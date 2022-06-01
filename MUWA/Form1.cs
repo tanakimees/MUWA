@@ -56,7 +56,6 @@ namespace MUWA
             roundedCorners(webBrowser1, 20);
             roundedCorners(webBrowser2, 20);
             roundedCorners(panel6, 40);
-            roundedCorners(dataGridView1, 40);
             roundedCorners(panel12, 20);
             roundedCorners(panel7, 10);
             roundedCorners(panel10, 10);
